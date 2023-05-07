@@ -1,0 +1,81 @@
+name,address,lat,lon,category_id,category
+Verny Daycare,"992 Greene Ave, Brooklyn, NY 11221",40.690851,-73.927928,11025,Child Care Service
+The Katmint,"545 Quincy St, Brooklyn, NY 11221",40.688597,-73.937656,12056,Preschool
+Ms. Taylor s House Pre School,"180 Malcolm X Blvd, Brooklyn, NY 11221",40.687289,-73.930104,11025,Child Care Service
+Brightside Academy,"844 Dekalb Ave, Brooklyn, NY 11221",40.692249,-73.942245,11025,Child Care Service
+Brooklyn Community Daycare Center,"202 Vernon Ave, Brooklyn, NY 11206",40.695122,-73.943664,12056,Preschool
+Bedford Stuyvesant New Beginnings Charter School,"82 Lewis Ave (Hart Street), Brooklyn, NY 11206",40.694634,-73.937712,12058,Elementary School
+Brighter Choice Community School,"280 Hart St, New York, NY 11206",40.693854,-73.940693,12058,Elementary School
+Success Academy Bed-Stuy 2,"211 Throop Ave, Brooklyn, NY 11206",40.697662,-73.943456,12058,Elementary School
+PS 262 El Hajj Malik El Shabazz Elementary School,"500 Macon St (btwn Macon & Macdonough), Brooklyn, NY 11233",40.68309,-73.929858,12058,Elementary School
+Brooklyn Brownstone School,"272 MacDonough St, Brooklyn, NY 11233",40.681695,-73.935692,12058,Elementary School
+Coy L Cox School,"820 Hancock St, Brooklyn, NY 11233",40.685549,-73.922536,12059,High School
+Boys and Girls High School,"1700 Fulton St, Brooklyn, NY 11213",40.678946,-73.931619,12059,High School
+Culture Shock,"42 Maujer St, Brooklyn, NY 11206",40.710235,-73.949174,12059,High School
+School,"76 Rutledge St, Brooklyn, NY 11249",40.700588,-73.959013,12059,High School
+Ronald Edmonds Learning Center Ii,"430 Howard Ave, Brooklyn, NY 11233",40.673061,-73.91984,12059,High School
+Green Central Knoll Playground,"Central Ave, Brooklyn, NY 11206",40.701872,-73.933189,16037,Playground
+Maria Hernandez Park,"301 Suydam St (btwn Starr & Suydam St), Brooklyn, NY 11237",40.702979,-73.923981,16037,Playground
+Herbert Von King Park,"670 Lafayette Ave (Between Greene Ave & Lafayette Ave), Brooklyn, NY 11216",40.689817,-73.946471,16036,Picnic Area
+Irving Square Park,"Knickerbocker Ave (Halsey St), Brooklyn, NY 11207",40.692802,-73.909201,16037,Playground
+Tiger playground,"Brooklyn, NY 11207",40.687808,-73.910496,16037,Playground
+www.cheapOone.com,"288 Crown St, Brooklyn, NY 11225",40.666098,-73.950532,19036,Airport Service
+JetBlue,"2701 Queens Plz N, Long Island City, NY 11101",40.75081,-73.938634,19036,Airport Service
+BLADE Lounge,"499 E 34th St, New York, NY 10016",40.74208,-73.972494,19036,Airport Service
+Bio Cube,"120 Wall St, New York, NY 10005",40.704868,-74.006174,19036,Airport Service
+Jets.Com,"401 Broadway, New York, NY 10013",40.718823,-74.002668,19036,Airport Service
+Saker Aviation Service,"20 South St, New York, NY 10004",40.70155,-74.009185,19036,Airport Service
+Sentinel Jet,"14 Wall St, New York, NY 10005",40.707545,-74.010819,19036,Airport Service
+Bell Helicopter,"119 W 17th St, New York, NY 10011",40.73987,-73.996382,19036,Airport Service
+JetBlue Airways,"90 Park Ave, New York, NY 10016",40.750745,-73.979296,19036,Airport Service
+Alpha Priority,"350 5th Ave, New York, NY 10118",40.748381,-73.984925,19036,Airport Service
+Lirr Atlantic Terminal,"New York, NY 11213",40.678423,-73.94115,19047,Rail Station
+LIRR - Nostrand Avenue Station,"1287 Atlantic Ave (btwn Nostrand & New York Ave), Brooklyn, NY 11216",40.678672,-73.947962,19047,Rail Station
+Wilson Avenue Station,"Chauncey St, New York, NY 11207",40.688985,-73.904739,19047,Rail Station
+LIRR - East New York Station,"Atlantic Ave (btw Snediker Ave & Van Sinderen Ave), Brooklyn, NY 12207",40.676612,-73.903753,19047,Rail Station
+Franklin Avenue – Botanic Garden,"Franklin Avenue, Brooklyn, NY 11225",40.670631,-73.95838,19047,Rail Station
+Happyfun Hideaway,"1211 Myrtle Ave (Bushwick Ave), Brooklyn, NY 11221",40.697492,-73.931626,13010,Dive Bar
+Chez Alex,"72 Ralph Ave (Madison St), Brooklyn, NY 11221",40.687563,-73.923834,13002,Bakery
+Pine Box Rock Shop,"12 Grattan St (btwn Bogart St & Morgan Ave), Brooklyn, NY 11206",40.705388,-73.932756,10039,Music Venue
+Bunna Cafe,"1084 Flushing Ave (at Porter Ave), Brooklyn, NY 11237",40.704924,-73.927895,13067,African Restaurant
+Dun-Well Doughnuts,"222 Montrose Ave (btwn Bushwick Ave & Humboldt St), Brooklyn, NY 11206",40.707398,-73.940294,13377,Vegan and Vegetarian Restaurant
+Vegan Market,"1140 Myrtle Ave (btwn Broadway & Ditmars St), Brooklyn, NY 11221",40.696872,-73.934657,13377,Vegan and Vegetarian Restaurant
+Amituofo Vegan Cuisine,"19 Bogart St, Brooklyn, NY 11206",40.703811,-73.933263,13065,Restaurant
+Vegan Shop Up,"12 Grattan St (Bogart Street), Brooklyn, NY 11206",40.705283,-73.932664,13003,Bar
+Ethiopian Vegan Restaurant,"1084 Flushing Ave, Brooklyn, NY 11237",40.704924,-73.927895,17057,Food and Beverage Retail
+Bunna Cafe,"1084 Flushing Ave (at Porter Ave), Brooklyn, NY 11237",40.704924,-73.927895,13067,African Restaurant
+The Clonard,"506 Grand St, Brooklyn, NY 11211",40.710782,-73.950897,13018,Pub
+The Flying Fox Tavern,"678 Woodward Ave (Gates Ave), Ridgewood, NY 11385",40.70501,-73.9063,13018,Pub
+Hartley's,"14 Putnam Ave, Brooklyn, NY 11238",40.682628,-73.961286,13018,Pub
+Banter,"132 Havemeyer St (at S 1st St), Brooklyn, NY 11211",40.71217,-73.957453,13018,Pub
+Putnam's Pub & Cooker,"419 Myrtle Ave (Clinton Ave.), Brooklyn, NY 11205",40.693255,-73.969069,13018,Pub
+Bossa Nova Civic Club,"1271 Myrtle Ave (at Hart St), Brooklyn, NY 11221",40.69802,-73.927982,10032,Night Club
+The Love Shack - A Little Palace in Brooklyn,"161 Stockholm St, Brooklyn, NY 11237",40.699555,-73.922979,10032,Night Club
+Rubulad,"338 Flushing Ave (Classon Ave and Taaffe Pl.), Brooklyn, NY 11205",40.698151,-73.961449,10032,Night Club
+House of Yes,"2 Wyckoff Ave (at Jefferson St), Brooklyn, NY 11237",40.706764,-73.923601,10032,Night Club
+Bed-Vyne Cocktail,"305 Halsey St (at Throop Ave), Brooklyn, NY 11216",40.68302,-73.940584,10032,Night Club
+Mae's Grooming Services,"1131 Broadway, Brooklyn, NY 11221",40.693784,-73.92913,11134,Pet Grooming Service
+Bushwick Bark,"175 Knickerbocker Ave (Flushing Ave), Brooklyn, NY 11237",40.704081,-73.927165,11134,Pet Grooming Service
+Roro's Pet Styling,"317 Knickerbocker Ave, Brooklyn, NY 11237",40.701556,-73.922749,11134,Pet Grooming Service
+Zen Animals,"233 Malcolm X Blvd, Brooklyn, NY 11233",40.684777,-73.929268,11134,Pet Grooming Service
+Bushwick Bark on Irving,"181 Irving Ave, Brooklyn, NY 11237",40.702182,-73.919457,11134,Pet Grooming Service
+Maria Hernandez Park Dog Run,"Irving Ave (at Willoughby Ave), Brooklyn, NY 11233",40.703914,-73.923275,16033,Dog Park
+Herbert Von King Park Dog Run,"Marcy Ave (at Lafayette Ave), Brooklyn, NY 11216",40.689833,-73.947911,16033,Dog Park
+Fulton Park Dog Run,"Fulton St (Stuyvesant Ave), Brooklyn, NY 11233",40.679746,-73.931955,16033,Dog Park
+Sternberg Park Dog Run,"Leonard St (Montrose Avenue and Boerum St), Brooklyn, NY 11206",40.706206,-73.946575,16033,Dog Park
+Chicken Hut,"169 Spencer St, Brooklyn, NY 11205",40.693371,-73.954721,16033,Dog Park
+Starbucks,"774 Broadway (Marcus Garvey Blvd), New York, NY 11206",40.699934,-73.941143,13035,Coffee Shop
+Starbucks,"329 Wyckoff Ave (at Palmetto St), Ridgewood, NY 11385",40.699811,-73.911253,13035,Coffee Shop
+Starbucks,"405-409 Union Avenue, Brooklyn, NY 11211",40.712545,-73.951532,13035,Coffee Shop
+Starbucks,"325 Lafayette Ave, New York, NY 11238",40.688897,-73.962706,13035,Coffee Shop
+Starbucks,"154 N 7th St (btwn Bedford Ave & Berry St), Brooklyn, NY 11249",40.717972,-73.958288,13035,Coffee Shop
+Kosciuszko st payground nyc,"1156 Broadway (KOsciuszko St), Brooklyn, NY 11221",40.693214,-73.928279,18008,Basketball Court
+Sholes Basketball Court,"Manhattan Ave (Manhattan Ave), Brooklyn, NY 11206",40.708989,-73.945329,18008,Basketball Court
+SWISH Academy,"251 Clifton Pl, Brooklyn, NY 11216",40.689037,-73.953464,18008,Basketball Court
+Cooper Park Basketball Courts,"341 Morgan Ave, Brooklyn, NY 11211",40.715763,-73.936031,18008,Basketball Court
+McCarren Park Basketball Courts,"558 Driggs Ave, Brooklyn, NY 11211",40.717093,-73.956901,18008,Basketball Court
+Timo Weiland Studio,"1123 Broadway (West 25th Street), Brooklyn, NY 11221",40.693889,-73.929221,11030,Design Studio
+Ra's Studio,"63 Woodward Ave, Ridgewood, NY 11385",40.713183,-73.919436,11030,Design Studio
+Grey Line Map,"87 Richardson St (Leonard), Brooklyn, NY 11211",40.718677,-73.948101,11030,Design Studio
+SMAKK Studios,"109 S 5th St (Bedford Ave.), Brooklyn, NY 11211",40.711674,-73.963892,11030,Design Studio
+NYC Laser Cut,"63 Flushing Ave (Unit 195, Building 280, Suite 515), Brooklyn, NY 11205",40.698211,-73.975239,11030,Design Studio
