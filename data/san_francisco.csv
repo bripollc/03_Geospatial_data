@@ -1,81 +1,63 @@
 name,address,lat,lon,category_id,category
-Mission Montessori,"50 Fell St, San Francisco, CA 94102",37.77667,-122.418887,12056,Preschool
-Adventure Montessori Wonderschool San Francisco,"33 8th St, San Francisco, CA 94103",37.778358,-122.413468,12056,Preschool
-Presidio Knolls School,"250 10th St (Howard/Folsom), San Francisco, CA 94103",37.773203,-122.413809,12056,Preschool
-Judith Baker Child Development Center,"685 Natoma St (8th), San Francisco, CA 94103",37.776721,-122.411794,12056,Preschool
-KinderCare Learning Center,"90 7th St (Stevenson), San Francisco, CA 94103",37.779426,-122.411882,12056,Preschool
-Chinese American International School,"550 Oak St, San Francisco, CA 94102",37.775313,-122.422104,12058,Elementary School
-San Francisco Unified School District,"555 Franklin St (at McAllister), San Francisco, CA 94102",37.779237,-122.42205,12058,Elementary School
-Civic Center Secondary School,"727 Golden Gate Ave, San Francisco, CA 94102",37.780381,-122.422906,12059,High School
-Chinese American School,"52 Waller St, San Francisco, CA 94102",37.772135,-122.424353,12057,Primary and Secondary School
-Sacred Heart Cathedral Preparatory,"1055 Ellis St (at Gough), San Francisco, CA 94109",37.783248,-122.423434,12059,High School
-Civic Center Secondary School,"727 Golden Gate Ave, San Francisco, CA 94102",37.780381,-122.422906,12059,High School
-S.F. County Civic Center Secondary,"727 Golden Gate Ave, San Francisco, CA 94102",37.780381,-122.422906,12059,High School
-Sacred Heart Cathedral Preparatory,"1055 Ellis St (at Gough), San Francisco, CA 94109",37.783248,-122.423434,12059,High School
-AltSchool,"585 Howard St (2nd Street), San Francisco, CA 94105",37.774169,-122.410568,12059,High School
-Sterne High School,"245 Valencia St, San Francisco, CA 94103",37.76889,-122.42194,12059,High School
-Helen Diller Civic Center Playground,"55 Larkin St (Grove St.), San Francisco, CA 94102",37.779197,-122.41574,16037,Playground
-Civic Center Commons,"Dr Carlton B Goodlett Pl, San Francisco , 94102, United States, San Francisco, CA 94102",37.779803,-122.418069,16037,Playground
-Patricia's Green,"499 Octavia St (btwn Hayes & Fell St), San Francisco, CA 94102",37.775919,-122.424434,16037,Playground
-James P. Lang Field,"901 Turk St (at Gough St), San Francisco, CA 94102",37.780954,-122.424803,16037,Playground
-Hayes Valley Playground Basketball Court,"598 Linden St (at Buchanan), San Francisco, CA 94102",37.776378,-122.42826,16037,Playground
-American Airlines,"7 Grace St, San Francisco, CA 94103",37.775495,-122.415019,19036,Airport Service
-American Airporter Shuttle,"120 Willow St, San Francisco, CA 94109",37.783662,-122.419731,19036,Airport Service
-Vietnam Airlines,"1388 Sutter St, San Francisco, CA 94109",37.787557,-122.423043,19036,Airport Service
-Airport Express,"910 Harrison St, San Francisco, CA 94107",37.778936,-122.402463,19036,Airport Service
-Swiss International Air Lines,"780 S Airport Blvd, San Francisco, CA 94103",37.783994,-122.403406,19036,Airport Service
-Cathay Pacific Airways,"360 Post St, San Francisco, CA 94108",37.788518,-122.407902,19036,Airport Service
-East & West Travel,"210 Post St, San Francisco, CA 94108",37.78886,-122.405557,19036,Airport Service
-Air India,"5 3rd St, San Francisco, CA 94103",37.78755,-122.403042,19036,Airport Service
-Vietnam Airlines,"88 Kearny St, San Francisco, CA 94108",37.788726,-122.40347,19036,Airport Service
-Smart Fare Deals,"649 Mission St, San Francisco, CA 94105",37.78684,-122.400778,19036,Airport Service
-Van Ness Station,"1500 Market St (at S Van Ness Ave), San Francisco, CA 94102",37.775314,-122.419524,19047,Rail Station
-Muni F Line Car no. 1061,"San Francisco, CA 94102",37.7832,-122.409524,19047,Rail Station
-MUNI Metro Stop - Duboce & Church,"400 Duboce Ave (at Church St.), San Francisco, CA 94117",37.769677,-122.429583,19047,Rail Station
-16th Street Mission,"2000 Mission St (at 16th St), San Francisco, CA 94110",37.764933,-122.419843,19047,Rail Station
-Church MUNI Metro Station,"2101 Market St (at Church), San Francisco, CA 94114",37.767097,-122.429144,19047,Rail Station
-Baia,"300 Grove St, San Francisco, CA 94102",37.778208,-122.421845,13009,Cocktail Bar
-Om Sabor,"370 Grove St, San Francisco, CA 94102",37.778061,-122.422482,13377,Vegan and Vegetarian Restaurant
-Rangoon Ruby,"590 Van Ness Ave (Golden Gate), San Francisco, CA 94102",37.780767,-122.41999,13072,Asian Restaurant
-Golden Era Vegan Restaurant,"395 Golden Gate Ave, San Francisco, CA 94102",37.781213,-122.416719,13072,Asian Restaurant
-RawDaddy's Fun Cone Food,"1025 Market St, San Francisco, CA 94103",37.781373,-122.410779,13377,Vegan and Vegetarian Restaurant
-Rad Radish,"301 Hayes St (Franklin Street), San Francisco, CA 94102",37.776891,-122.421553,13000,Dining and Drinking
-Baia,"300 Grove St, San Francisco, CA 94102",37.778208,-122.421845,13009,Cocktail Bar
-Om Sabor,"370 Grove St, San Francisco, CA 94102",37.778061,-122.422482,13377,Vegan and Vegetarian Restaurant
-Patxi's Chicago Pizza,"511 Hayes St (btwn Octavia St & Laguna St), San Francisco, CA 94102",37.776537,-122.4249,13236,Italian Restaurant
-Golden Era Vegan Restaurant,"395 Golden Gate Ave, San Francisco, CA 94102",37.781213,-122.416719,13072,Asian Restaurant
+KinderCare Learning Center,"75 Hawthorne St, San Francisco, CA 94105",37.785486,-122.397974,12056,Preschool
+Savvy Source,"601 Montgomery St, San Francisco, CA 94111",37.794834,-122.403471,12056,Preschool
+Play Group,"1 Embarcadero Ctr, San Francisco, CA 94111",37.79444,-122.399648,11025,Child Care Service
+The Buddy System,"111 Maiden Ln, San Francisco, CA 94108",37.788053,-122.405438,12058,Elementary School
+San Ramon Valley Unified School.dst,"582 Market St, San Francisco, CA 94104",37.789453,-122.401649,12058,Elementary School
+Decker Communications,"575 Market St (Sansome), San Francisco, CA 94105",37.789616,-122.400368,12058,Elementary School
+San Francisco Flex Academy,"555 Post St (Mason), San Francisco, CA 94102",37.787731,-122.410939,12059,High School
+Central Chinese High School In America,"827 Stockton St, San Francisco, CA 94108",37.79351,-122.407982,12059,High School
+Ayusa - Global Youth Exchange,"600 California St, San Francisco, CA 94108",37.795635,-122.407534,12059,High School
+National Parks & Conservation Assoc,"150 Post St, San Francisco, CA 94108",37.788899,-122.404627,16037,Playground
+Creative Recreational Systems,"548 Market St, San Francisco, CA 94104",37.790076,-122.400753,16037,Playground
+Yerba Buena Gardens,"760 Howard St (btwn 3rd & 4th St), San Francisco, CA 94103",37.784655,-122.402441,16037,Playground
+Oakland International Airport (OAK),"1 Airport Dr, Oakland, CA 94621",37.712395,-122.213323,19040,International Airport
+San Francisco International Airport (SFO),"at Link Rd, San Francisco, CA 94128",37.616581,-122.386689,19040,International Airport
+MUNI Stop,"San Francisco, CA 94108",37.787283,-122.404389,19047,Rail Station
+Montgomery MUNI Metro Station,"598 Market St (at 2nd St), San Francisco, CA 94104",37.788862,-122.402116,19047,Rail Station
+MUNI / BART Station,"298 Market St, San Francisco, CA 94104",37.788862,-122.402116,19047,Rail Station
+Pacific Railroad Company of California,"41 Sutter St, San Francisco, CA 94104",37.789941,-122.401247,19047,Rail Station
+MUNI S Shuttle,"San Francisco, CA 94102",37.784333,-122.407942,19047,Rail Station
+Mixt,"51 Yerba Buena Ln, San Francisco, CA 94103",37.785619,-122.404362,13068,American Restaurant
+Vida Cantina SF,"56 Belden Pl (Pine St), San Francisco, CA 94104",37.791457,-122.403699,13009,Cocktail Bar
+Sweetgreen,"171 2nd St, San Francisco, CA 94105",37.787275,-122.398509,13065,Restaurant
+The Plant Cafe Organic,"250 Montgomery St (Pine St.), San Francisco, CA 94104",37.791658,-122.402281,13034,Café
+Mixt Greens,"120 Sansome St (btw Bush & Pine), San Francisco, CA 94104",37.791491,-122.400622,13332,Salad Restaurant
+The Thonglor,"420 Geary St, San Francisco, CA 94102",37.787281,-122.41041,13072,Asian Restaurant
+Mixt Greens,"475 Sansome St (at Commercial St), San Francisco, CA 94111",37.794537,-122.401805,13068,American Restaurant
+The Bite,"996 Mission St, San Francisco, CA 94103",37.781395,-122.408773,13302,Mediterranean Restaurant
+The Lucky Creation Vegetarian Restaurant,"854 Washington St (btwn Stockton & Ross), San Francisco, CA 94108",37.795217,-122.407437,13099,Chinese Restaurant
+Enjoy Vegetarian Restaurant,"839 Kearny St (at Washington St.), San Francisco, CA 94108",37.795836,-122.405323,13099,Chinese Restaurant
 The Irish Bank Bar and Restaurant,"10 Mark Ln (at Harlan Pl.), San Francisco, CA 94108",37.790405,-122.404573,13018,Pub
 Irish Times,"500 Sacramento St (at Sansome St.), San Francisco, CA 94111",37.794054,-122.401705,13018,Pub
-Union Street Club,"1794 Union St (Octavia), San Francisco, CA 94123",37.798193,-122.428762,13018,Pub
+Maggie McGarry's,"1353 Grant Ave (at Green St), San Francisco, CA 94133",37.799456,-122.407544,13018,Pub
 Murph's Clubhouse Pub,"24 Willie Mays Plz, San Francisco, CA 94107",37.77862,-122.389899,13018,Pub
-Capp Town,"832 Capp St, San Francisco, CA 94110",37.753305,-122.417651,13018,Pub
-Oasis,"298 11th St (at Folsom), San Francisco, CA 94103",37.771885,-122.414376,10032,Night Club
-Club Revenge SF,"299 9th St, San Francisco, CA 94103",37.773989,-122.411633,10032,Night Club
-Halcyon,"314 11th St (Folsom), San Francisco, CA 94103",37.771424,-122.41399,10032,Night Club
-Audio Nightclub,"316 11th St (btwn Folsom & Harrison), San Francisco, CA 94103",37.771408,-122.413774,10032,Night Club
-F8 1192 Folsom,"1192 Folsom St (8th), San Francisco, CA 94103",37.775284,-122.40999,10032,Night Club
-The Preppy Puppy,"South Van Ness Avenue, San Francisco, CA 94102",37.776755,-122.422046,11134,Pet Grooming Service
-The Dog Barber,"1903 Market St, San Francisco, CA 94103",37.770428,-122.424897,11134,Pet Grooming Service
-Tefani & So. Dogcare,"395 9th St, San Francisco, CA 94103",37.772928,-122.410137,11134,Pet Grooming Service
-Wag Hotels San Francisco,"25 14th St (Folsom), San Francisco, CA 94103",37.768475,-122.414103,11134,Pet Grooming Service
-San Francisco Pet Grooming,"218 Fillmore St, San Francisco, CA 94117",37.771439,-122.430046,11134,Pet Grooming Service
-Cole Valley Dog Park,"Cole St., San Francisco, CA 94102",37.775759,-122.419694,16033,Dog Park
-Dumpling Kibble,"233 Franklin St (Hayes), San Francisco, CA 94102",37.776864,-122.421479,16033,Dog Park
-AVA 55 Ninth Dog Run,"55 9th St, San Francisco, CA 94103",37.777175,-122.415262,16033,Dog Park
-Hayes Dogpark,"538 Hayes St, San Francisco, CA 94102",37.776802,-122.425274,16033,Dog Park
-Friends of Jefferson Square Park San Francisco,"Eddy St, San Francisco, CA 94109",37.782619,-122.42397,16033,Dog Park
-Starbucks,"150 Van Ness Ave (Hayes St), San Francisco, CA 94102",37.777222,-122.41935,13035,Coffee Shop
-Starbucks,"1390 Market St (at Fox Plz), San Francisco, CA 94102",37.777088,-122.417264,13035,Coffee Shop
-Starbucks,"1690 Folsom St, San Francisco, CA 94103",37.770025,-122.416058,13035,Coffee Shop
-Starbucks,"1100 Van Ness Ave, San Francisco, CA 94109",37.785916,-122.421011,13035,Coffee Shop
-Starbucks,"2020 Market St, San Francisco, CA 94114",37.769066,-122.427755,13035,Coffee Shop
+Local Edition,"691 Market St, San Francisco, CA 94105",37.787566,-122.403258,10032,Night Club
+The View,"55 4th St (btwn Market & Mission), San Francisco, CA 94103",37.785321,-122.404416,10032,Night Club
+Johnny Foley's Dueling Piano Bar,"243 Ofarrell St, San Francisco, CA 94102",37.78623,-122.408771,10032,Night Club
+Club 17,"222 2nd St, San Francisco, CA 94105",37.786115,-122.398298,10032,Night Club
+Southside Spirit House,"575 Howard St (at 2nd St), San Francisco, CA 94105",37.787129,-122.397425,10032,Night Club
+Tefani & So. Dogcare,"156 2nd St, San Francisco, CA 94105",37.787063,-122.399142,11134,Pet Grooming Service
+SF Puppy Love,"840 Harrison St (4th), San Francisco, CA 94107",37.779739,-122.401363,11134,Pet Grooming Service
+Doggie Day Spaw,"920 Harrison St, San Francisco, CA 94107",37.77886,-122.402602,11134,Pet Grooming Service
+Bernie's Grooming City Dogs,"177 Brannan St (Delancey St), San Francisco, CA 94107",37.783786,-122.389414,11134,Pet Grooming Service
+South Paw Bathhouse Feed Co.,"199 Brannan St, San Francisco, CA 94107",37.783786,-122.389414,11134,Pet Grooming Service
+Dog Patch,"22 4th St ((Back Of The Building)), San Francisco, CA 94103",37.784876,-122.405107,16033,Dog Park
+Hotel Nikko Dog Run,"222 Mason St, San Francisco, CA 94102",37.785601,-122.409308,16033,Dog Park
+Puppyforce,"50 Fremont St, San Francisco, CA 94105",37.790939,-122.397578,16033,Dog Park
+Courtyard Doggie Area,"San Francisco, CA 94109",37.78622,-122.419595,16033,Dog Park
+Mookie Dog Park,"San Francisco, CA 94107",37.785895,-122.39047,16033,Dog Park
+Starbucks,"74 New Montgomery St (at Jessie St), San Francisco, CA 94105",37.787664,-122.401113,13035,Coffee Shop
+Starbucks,"44 Montgomery St (btwn Sutter & Market St), San Francisco, CA 94104",37.789534,-122.401869,13035,Coffee Shop
+Starbucks,"780 Market St (at 4th St), San Francisco, CA 94102",37.786145,-122.405612,13035,Coffee Shop
+Starbucks,"390 Stockton St (at Sutter St), San Francisco, CA 94108",37.789293,-122.406729,13035,Coffee Shop
+Starbucks,"264 Kearny St (at Bush St), San Francisco, CA 94108",37.790648,-122.403858,13035,Coffee Shop
 Soma Rec Center,"6TH St (Folsom Street), San Francisco, CA 94109",37.778838,-122.406328,18008,Basketball Court
-Hamilton Basketball Courts,"2000 Post St, San Francisco, CA 94115",37.785284,-122.435668,18008,Basketball Court
-Dolores Park Basketball Courts,"18TH St (at Church St), San Francisco, CA 94103",37.761189,-122.427791,18008,Basketball Court
 Berry Basketball Courts,"Berry St (I-280), San Francisco, CA 94158",37.77208,-122.397686,18008,Basketball Court
-NBA Nation,"20TH St, San Francisco, CA 94110",37.759168,-122.412335,18008,Basketball Court
-Brown Fox Calligraphy,"171 Lily St, San Francisco, CA 94102",37.774266,-122.423404,11030,Design Studio
-Mule Design,"9TH St (Howard St), San Francisco, CA 94107",37.774916,-122.412763,11030,Design Studio
-Frog,"1130 Howard St, San Francisco, CA 94103",37.777703,-122.41049,11030,Design Studio
-Universal Electric Supply,"7TH St (Bryant), San Francisco, CA 94103",37.772457,-122.408174,11030,Design Studio
+Alice Marble Basketball Court,"2201 Hyde St (at Greenwich), San Francisco, CA 94109",37.801449,-122.420352,18008,Basketball Court
+Hamilton Basketball Courts,"2000 Post St, San Francisco, CA 94115",37.785284,-122.435668,18008,Basketball Court
+Fashion Incubator San Francisco,"845 Market St, San Francisco, CA 94103",37.786941,-122.405874,11030,Design Studio
+Anna's Design,"166 Geary St, San Francisco, CA 94108",37.787803,-122.40614,11030,Design Studio
+Fedex Office,"350 Sansome St, San Francisco, CA 94104",37.793756,-122.400899,11030,Design Studio
+Designit,"450 Sansome St, San Francisco, CA 94111",37.794629,-122.401022,11030,Design Studio
 The Factory,"965 Mission St, San Francisco, CA 94103",37.781325,-122.40755,11030,Design Studio

@@ -1,36 +1,27 @@
 name,address,lat,lon,category_id,category
-Sunflower,"1514 12th St, Santa Monica, CA 90401",34.020766,-118.485761,12056,Preschool
+Piper Preschool,"807 Arizona Ave (Arizona), Santa Monica, CA 90401",34.021219,-118.492906,12056,Preschool
+Gan Israel Preschool,"1341 9th St (Santa Monica Blvd), Santa Monica, CA 90401",34.020859,-118.490709,11025,Child Care Service
 10th Street Preschool,"1444 10th St, Santa Monica, CA 90401",34.01988,-118.488781,11025,Child Care Service
-Lighthouse Preschool,"1511 20th St, Santa Monica, CA 90404",34.027235,-118.477909,12056,Preschool
-Maple Tree Academy,"1814 14th St (Michigan Avenue), Santa Monica, CA 90404",34.0179,-118.478919,12056,Preschool
-Pilgrim Lutheran Preschool,"1730 Wilshire Blvd, Santa Monica, CA 90403",34.029279,-118.485017,12056,Preschool
-P S # 1 Elementary School,"1454 Euclid St, Santa Monica, CA 90404",34.021992,-118.485503,12058,Elementary School
+Knowledge Universe,"1250 4th St, Santa Monica, CA 90401",34.017819,-118.497217,11025,Child Care Service
+KinderCare Learning Center,"1250 4th St, Santa Monica, CA 90401",34.017751,-118.497215,12056,Preschool
+Sycamore Community School,"1229 4th St, Santa Monica, CA 90401",34.018463,-118.497159,12058,Elementary School
+Watts Kenneth PhD Educational Therapy,"1535 6th St, Santa Monica, CA 90401",34.015931,-118.490466,12058,Elementary School
 Ps#1,"1447 12th St, Santa Monica, CA 90401",34.021733,-118.486134,12058,Elementary School
-Pacifica Christian High School,"1730 Wilshire Blvd, Santa Monica, CA 90403",34.029315,-118.484947,12059,High School
-Lighthouse Church School,"1220 20th St, Santa Monica, CA 90404",34.03068,-118.482714,12058,Elementary School
-Concord High School,"1831 Wilshire Blvd (at 19th St), Santa Monica, CA 90403",34.030718,-118.484481,12058,Elementary School
-Pacifica Christian High School,"1730 Wilshire Blvd, Santa Monica, CA 90403",34.029315,-118.484947,12059,High School
-Santa Monica High School,"601 Pico Blvd (6th St), Santa Monica, CA 90405",34.011357,-118.485073,12059,High School
-Writers Boot Camp,"2519 Michigan Ave (26th St), Santa Monica, CA 90404",34.027339,-118.468371,12059,High School
 St Monica Catholic High School,"1030 Lincoln Blvd, Santa Monica, CA 90403",34.024076,-118.497134,12059,High School
+P S # 1 Elementary School,"1454 Euclid St, Santa Monica, CA 90404",34.021992,-118.485503,12058,Elementary School
+St Monica Catholic High School,"1030 Lincoln Blvd, Santa Monica, CA 90403",34.024076,-118.497134,12059,High School
+Santa Monica High School,"601 Pico Blvd (6th St), Santa Monica, CA 90405",34.011357,-118.485073,12059,High School
+Pacifica Christian High School,"1730 Wilshire Blvd, Santa Monica, CA 90403",34.029315,-118.484947,12059,High School
 Olympic High School,"2425 16th St, Santa Monica, CA 90405",34.013482,-118.469148,12059,High School
-Euclid Park,"1525 Euclid St (Broadway), Santa Monica, CA 90404",34.0217,-118.484225,16037,Playground
-Memorial Park,"1401 Olympic Blvd, Santa Monica, CA 90404",34.019971,-118.480586,16037,Playground
+Writers Boot Camp,"2519 Michigan Ave (26th St), Santa Monica, CA 90404",34.027339,-118.468371,12059,High School
 Christine Emerson Reed Park,"1133 7th St (Wilshire), Santa Monica, CA 90403",34.022604,-118.495761,16036,Picnic Area
 Playground Reed Park,"Santa Monica, CA 90403",34.022386,-118.496181,16037,Playground
-Virginia Avenue Park,"2200 Virginia Ave (at Cloverfield Blvd), Santa Monica, CA 90404",34.022287,-118.468762,16036,Picnic Area
-"Atlantic Aviation, Santa Monica Municipal Airport","2828 Donald Douglas Loop N, Santa Monica, CA 90405",34.016661,-118.453031,19031,Airport
-Santa Monica Airport (SMO),"3223 Donald Douglas Loop S, Santa Monica, CA 90405",34.017569,-118.447467,19031,Airport
-Spaceport Malaysia,"3153 Purdue Ave, Los Angeles, CA 90066",34.023131,-118.431748,19031,Airport
-Rio Limo and Sedan Service,"12405 Venice Blvd, Los Angeles, CA 90066",34.003707,-118.434043,19036,Airport Service
-Continental Airlines,"9872 Wilshire Blvd, Beverly Hills, CA 90210",34.066325,-118.413101,19036,Airport Service
-JetOptions Private Jets,"9465 Wilshire Blvd, Beverly Hills, CA 90212",34.067267,-118.399826,19036,Airport Service
-Fedex Maintenance Hangar,"7401 World Way W, Los Angeles, CA 90045",33.943592,-118.423795,19036,Airport Service
-Attitude Aviation,"8032 Bleriot Ave, Los Angeles, CA 90045",33.965233,-118.391306,19036,Airport Service
-Runway 06R - 24L,"LAX Airport, Los Angeles, CA 90045",33.94944,-118.409503,19036,Airport Service
-Sav-On Shuttle,"8800 S Sepulveda Blvd, Los Angeles, CA 90045",33.957024,-118.395807,19036,Airport Service
-17th Street / SMC Station,"1610 Colorado Ave, Santa Monica, CA 90404",34.023167,-118.480087,19047,Rail Station
+Samo's Clubhouse,"395 Santa Monica Blvd, Los Angeles, CA 90401",34.01333,-118.494157,16037,Playground
+Euclid Park,"1525 Euclid St (Broadway), Santa Monica, CA 90404",34.0217,-118.484225,16037,Playground
+Swings At Santa Monica,"1500 Ocean Ave, Santa Monica, CA 90401",34.012469,-118.495552,16037,Playground
+Los Angeles International Airport (LAX),"1 World Way, Los Angeles, CA 90045",33.944697,-118.398107,19040,International Airport
 Metro - Downtown Santa Monica Station,"401 Colorado Ave (at 4th St), Santa Monica, CA 90401",34.013832,-118.491482,19047,Rail Station
+17th Street / SMC Station,"1610 Colorado Ave, Santa Monica, CA 90404",34.023167,-118.480087,19047,Rail Station
 26th Street/Bergamot,"Olympic Boulevard, Los Angeles, CA 90404",34.027953,-118.469161,19047,Rail Station
 Metro Expo Facility,"Santa Monica, CA 90404",34.029282,-118.462262,19047,Rail Station
 Robert Sasan,"11950 Idaho Ave, Los Angeles, CA 90025",34.039305,-118.459922,19047,Rail Station
@@ -39,35 +30,35 @@ Superfood Cafe,"530 Wilshire Blvd (at 6th St.), Santa Monica, CA 90401",34.02021
 Sweetgreen,"1343 4th St, Santa Monica, CA 90401",34.017037,-118.495434,13065,Restaurant
 Satdha,"2218 Lincoln Blvd, Santa Monica, CA 90405",34.009736,-118.480306,13352,Thai Restaurant
 Erin McKenna’s Bakery,"1415 Montana Ave, Santa Monica, CA 90403",34.032604,-118.495049,13002,Bakery
-Sweetfin Poké,"829 Broadway (at Lincoln Ct), Santa Monica, CA 90401",34.01881,-118.489395,13065,Restaurant
-Huckleberry,"1014 Wilshire Blvd (at 10th Ct), Santa Monica, CA 90401",34.023849,-118.492183,13002,Bakery
-Veggie Grill,"2025 Wilshire Blvd (at 21st St), Santa Monica, CA 90403",34.031995,-118.482812,13377,Vegan and Vegetarian Restaurant
-Thai Vegan II,"2315 Santa Monica Blvd, Santa Monica, CA 90404",34.031039,-118.477421,13377,Vegan and Vegetarian Restaurant
-The Hive,"606 Broadway (6th), Santa Monica, CA 90401",34.016748,-118.49126,13000,Dining and Drinking
+Sweetgreen,"1517 Montana Ave, Santa Monica, CA 90403",34.033419,-118.494006,13065,Restaurant
+Monty's Good Burger,"123 Broadway (Second Street), Santa Monica, CA 90401",34.013399,-118.495995,13031,Burger Joint
+AVO Café,"306 Pico Blvd, Santa Monica, CA 90405",34.009062,-118.487781,13031,Burger Joint
+Pranaful,"905 2nd St, Santa Monica, CA 90403",34.021712,-118.504574,13377,Vegan and Vegetarian Restaurant
+Samosa House,"2301 Main St, Santa Monica, CA 90405",34.004923,-118.486283,13199,Indian Restaurant
 Santa Monica Beer Scavenger Hunt,"3RD St (Santa Monica), Santa Monica, CA 90401",34.011132,-118.48853,13018,Pub
-Sonny McLean's,"2615 Wilshire Blvd, Santa Monica, CA 90403",34.036589,-118.477253,13018,Pub
 Jameson's Pub,"2702 Main St (at Hill St), Santa Monica, CA 90405",34.000724,-118.482664,13017,Piano Bar
+Sonny McLean's,"2615 Wilshire Blvd, Santa Monica, CA 90403",34.036589,-118.477253,13018,Pub
 Eat Berlins,"1425 Ocean Front Walk, Venice, CA 90291",33.98774,-118.474133,13018,Pub
-Senator Jones,"2020 Wilshire Blvd (btwn 20th & 21st St), Santa Monica, CA 90403",34.031641,-118.48231,10032,Night Club
 Harvelles Blues Club,"1432 4th St (btw Santa Monica Blvd & Broadway), Santa Monica, CA 90401",34.015618,-118.494486,10032,Night Club
+German American Club,"1843 Lincoln Blvd, Santa Monica, CA 90404",34.013206,-118.483486,10032,Night Club
+Senator Jones,"2020 Wilshire Blvd (btwn 20th & 21st St), Santa Monica, CA 90403",34.031641,-118.48231,10032,Night Club
+Zugell Zumba,"2523 17th St, Santa Monica, CA 90405",34.013111,-118.467233,10032,Night Club
 Busby's West,"3110 Santa Monica Blvd (at Berkeley Ave.), Santa Monica, CA 90404",34.037184,-118.469137,10032,Night Club
-Plan B,"11637 W Pico Blvd (S. Barrington Ave.), Los Angeles, CA 90064",34.032343,-118.444656,10032,Night Club
-Blen Blen,"1618 Cotner Ave (Santa Monica), West Los Angeles, CA 90025",34.047834,-118.446383,10032,Night Club
 Healthy Spot,"1110 Wilshire Blvd (at 11th St), Santa Monica, CA 90401",34.024581,-118.491231,11134,Pet Grooming Service
-Yo Dawg Groom Spot,"1820 Wilshire Blvd, Santa Monica, CA 90403",34.030089,-118.484115,11134,Pet Grooming Service
-Yo Dawg Groom Spot,"1844 14th St (Pico Blvd.), Santa Monica, CA 90404",34.017209,-118.47841,11134,Pet Grooming Service
-Fitdog Sports Club,"1712 21st St (Olympic & 21st), Santa Monica, CA 90404",34.024606,-118.473898,11134,Pet Grooming Service
 Moon Doggy's Dog Wash,"1838 Lincoln Blvd, Santa Monica, CA 90404",34.012915,-118.484045,11134,Pet Grooming Service
-Memorial Park Dog Run,"1621 14th St (at Colorado Ave.), Santa Monica, CA 90404",34.021248,-118.481728,16033,Dog Park
+To Wag For,"1123 Montana Ave (10th), Santa Monica, CA 90403",34.030589,-118.497481,11134,Pet Grooming Service
+The Wagging Tail,"1123 Montana Ave, Santa Monica, CA 90403",34.030553,-118.497551,11134,Pet Grooming Service
+Yo Dawg Groom Spot,"1844 14th St (Pico Blvd.), Santa Monica, CA 90404",34.017209,-118.47841,11134,Pet Grooming Service
 "DOG PPL - Dog Park, Bar, Cafe & Lounge","Santa Monica, CA 90401",34.017297,-118.494804,16033,Dog Park
 Beneful's Virtual Dog Park Storescape,"395 Santa Monica Pl (in Santa Monica Place), Santa Monica, CA 90401",34.013704,-118.494094,16033,Dog Park
-Secret Dog Park,"Stanley, Santa Monica, CA 90404",34.032122,-118.468893,16033,Dog Park
 Dog Town,"Santa Monica, CA 90401",34.01107,-118.494958,16033,Dog Park
-Starbucks,"1311 Wilshire Blvd, Santa Monica, CA 90403",34.026503,-118.489836,13035,Coffee Shop
-Starbucks,"1030 Wilshire Blvd (11th), Santa Monica, CA 90401",34.024139,-118.491624,13035,Coffee Shop
+Memorial Park Dog Run,"1621 14th St (at Colorado Ave.), Santa Monica, CA 90404",34.021248,-118.481728,16033,Dog Park
+Secret Dog Park,"Stanley, Santa Monica, CA 90404",34.032122,-118.468893,16033,Dog Park
 Starbucks,"710 Broadway, Santa Monica, CA 90401",34.017199,-118.489997,13035,Coffee Shop
-Starbucks,"2200 Colorado Ave, Santa Monica, CA 90404",34.027309,-118.474872,13035,Coffee Shop
-Starbucks,"1644 Cloverfield Blvd, Santa Monica, CA 90404",34.027184,-118.473668,13035,Coffee Shop
+Starbucks,"1030 Wilshire Blvd (11th), Santa Monica, CA 90401",34.024139,-118.491624,13035,Coffee Shop
+Starbucks,"1356 3rd Street Promenade, Santa Monica, CA 90401",34.015744,-118.496609,13035,Coffee Shop
+Starbucks,"1311 Wilshire Blvd, Santa Monica, CA 90403",34.026503,-118.489836,13035,Coffee Shop
+Starbucks,"1705 Ocean Ave (Civic Center Dr.), Santa Monica, CA 90401",34.010651,-118.491558,13035,Coffee Shop
 Memorial Park Basketball Courts,"1401 Olympic Blvd (14th and Olympic), Santa Monica, CA 90404",34.019934,-118.480656,18008,Basketball Court
 Basketball Courts,"1406 Marine St (at 16th St.), Santa Monica, CA 90405",34.006221,-118.465114,18008,Basketball Court
 Venice Beach Basketball Courts,"1800 Ocean Front Walk (at 18th Pl), Venice, CA 90291",33.986028,-118.472826,18008,Basketball Court
@@ -76,5 +67,5 @@ Saxon Courts,"250 De Neve Dr, Los Angeles, CA 90024",34.07141,-118.452657,18008,
 SLS Ad Co.,"1453 3rd Street Promenade (btwn Broadway & Santa Monica Blvd.), Santa Monica, CA 90401",34.01477,-118.49454,11030,Design Studio
 First Contact Entertainment,"1333 2nd St, Santa Monica, CA 90401",34.015714,-118.497456,11030,Design Studio
 Thought Merchants,"216 Pico Blvd (Main Street), Santa Monica, CA 90405",34.008138,-118.489033,11030,Design Studio
-Photowow,"11950 Wilshire Blvd (Brockton), Los Angeles, CA 90025",34.045646,-118.465069,11030,Design Studio
 Active Theory,"615 Hampton Dr (Sunset Blvd), Venice, CA 90291",33.99439,-118.475399,11030,Design Studio
+Photowow,"11950 Wilshire Blvd (Brockton), Los Angeles, CA 90025",34.045646,-118.465069,11030,Design Studio
