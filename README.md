@@ -37,7 +37,7 @@ __Foursquare__ was used as an API to find places that fit the team's needs. Four
 
 ## Workflow
 
-![wf](/images/workflow-01.jpg)
+![wf](/images/workflow.jpg)
 
 01. First, we analyzed the need of our employees and developed a __weighting table__ to identify the most important factors.
 
