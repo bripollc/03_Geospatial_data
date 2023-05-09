@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3061885112021cc0cc5e77ffc0e72c75 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3061885112021cc0cc5e77ffc0e72c75" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3061885112021cc0cc5e77ffc0e72c75 = L.map(
+                "map_3061885112021cc0cc5e77ffc0e72c75",
+                {
+                    center: [40.748782, -73.986534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_93b5373b8899c2e8db3dbe04b52f9e66 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var marker_2015b95f296ca43ee69532d1c7e5b159 = L.marker(
+                [40.747135, -73.985094],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_0c9a427f09cec08250a0fcaa88e09178 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2015b95f296ca43ee69532d1c7e5b159.setIcon(icon_0c9a427f09cec08250a0fcaa88e09178);
+        
+    
+            marker_2015b95f296ca43ee69532d1c7e5b159.bindTooltip(
+                `<div>
+                     Chelsea Day School<br>319 5th Ave (E 32nd St), New York, NY 10016<br>Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_077e3ab1c3835cf8c2e584e9dc407d16 = L.marker(
+                [40.74803, -73.981941],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_c78008da787789119a1f12932ee3cdc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_077e3ab1c3835cf8c2e584e9dc407d16.setIcon(icon_c78008da787789119a1f12932ee3cdc0);
+        
+    
+            marker_077e3ab1c3835cf8c2e584e9dc407d16.bindTooltip(
+                `<div>
+                     Maryel School of New York<br>28 E 35th St, New York, NY 10016<br>Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a4b6c2fde647308586f4ec67141bccf = L.marker(
+                [40.745022, -73.989423],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_5499b6266e5097e4a118723564452d7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_7a4b6c2fde647308586f4ec67141bccf.setIcon(icon_5499b6266e5097e4a118723564452d7e);
+        
+    
+            marker_7a4b6c2fde647308586f4ec67141bccf.bindTooltip(
+                `<div>
+                     ReadingEggs<br>37 W 27th St, New York, NY 10001<br>Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e777bcbef9dc207f0035975a54e76e = L.marker(
+                [40.748882, -73.986342],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7221893973d80f0e2d83b880a49fef57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_81e777bcbef9dc207f0035975a54e76e.setIcon(icon_7221893973d80f0e2d83b880a49fef57);
+        
+    
+            marker_81e777bcbef9dc207f0035975a54e76e.bindTooltip(
+                `<div>
+                     Libs<br>22 W 34th St, New York, NY 10001<br>Primary and Secondary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f498387bcc5602e011a46e9a35b9f80b = L.marker(
+                [40.751852, -73.990259],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_95db3e69cbc24ede236ec24a0e0184fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_f498387bcc5602e011a46e9a35b9f80b.setIcon(icon_95db3e69cbc24ede236ec24a0e0184fc);
+        
+    
+            marker_f498387bcc5602e011a46e9a35b9f80b.bindTooltip(
+                `<div>
+                     Alpine County Office of Education<br>462 Fashion Ave, New York, NY 10018<br>Primary and Secondary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25eb86352931fac4e7103ce8f2a3affc = L.marker(
+                [40.752932, -73.98423],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_2c08d20ee9d96b990026803823b392ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_25eb86352931fac4e7103ce8f2a3affc.setIcon(icon_2c08d20ee9d96b990026803823b392ea);
+        
+    
+            marker_25eb86352931fac4e7103ce8f2a3affc.bindTooltip(
+                `<div>
+                     Daytop Village<br>54 W 40th St, New York, NY 10018<br>Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88b12387d7e22ea572d897029dbccf56 = L.marker(
+                [40.748935, -73.986388],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_516a186f1b13948a867cb3d59ca72c4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_88b12387d7e22ea572d897029dbccf56.setIcon(icon_516a186f1b13948a867cb3d59ca72c4e);
+        
+    
+            marker_88b12387d7e22ea572d897029dbccf56.bindTooltip(
+                `<div>
+                     Ayurveda America Academy<br>22 W 34th St, New York, NY 10001<br>High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75d605a616d16a9abac63b414d411d37 = L.marker(
+                [40.749979, -73.985686],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_d1d9965bf66d0db5e66ec408c8fd0464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_75d605a616d16a9abac63b414d411d37.setIcon(icon_d1d9965bf66d0db5e66ec408c8fd0464);
+        
+    
+            marker_75d605a616d16a9abac63b414d411d37.bindTooltip(
+                `<div>
+                     Frank Sinatra School Of The Arts High School<br>35 W 35th St, New York, NY 10001<br>High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38af1e9100f09e3092784674ffdb98cf = L.marker(
+                [40.747418, -73.990609],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_34f756aa32f9c182add3afa319390f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_38af1e9100f09e3092784674ffdb98cf.setIcon(icon_34f756aa32f9c182add3afa319390f8e);
+        
+    
+            marker_38af1e9100f09e3092784674ffdb98cf.bindTooltip(
+                `<div>
+                     Satellite Academy High School<br>120 W 30th St (6th and 7th), New York, NY 10001<br>High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4214cea06fe4c0f0410273b7438eb3c3 = L.marker(
+                [40.751398, -73.989062],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_d350a53c0c61fa99fd8965578dce02d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_4214cea06fe4c0f0410273b7438eb3c3.setIcon(icon_d350a53c0c61fa99fd8965578dce02d1);
+        
+    
+            marker_4214cea06fe4c0f0410273b7438eb3c3.bindTooltip(
+                `<div>
+                     Franklin D Roosevelt Four<br>147 W 35th St, New York, NY 10001<br>Playground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e147848ce2565d73a3b5a91bd819a229 = L.marker(
+                [40.74664, -73.993417],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_f945a958eb26a857420950301ef10758 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_e147848ce2565d73a3b5a91bd819a229.setIcon(icon_f945a958eb26a857420950301ef10758);
+        
+    
+            marker_e147848ce2565d73a3b5a91bd819a229.bindTooltip(
+                `<div>
+                     Friends Of Hudson River Park<br>305 7th Ave, New York, NY 10001<br>Playground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02b341eadacf03da059cdb93ac35ba8f = L.marker(
+                [40.751873, -73.979471],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_73ce682e405d53669274dccde54c1945 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_02b341eadacf03da059cdb93ac35ba8f.setIcon(icon_73ce682e405d53669274dccde54c1945);
+        
+    
+            marker_02b341eadacf03da059cdb93ac35ba8f.bindTooltip(
+                `<div>
+                     Bryant Park Market Events<br>295 Madison Ave, New York, NY 10017<br>Playground
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c967b99225591518b9f2092bbeec6cd5 = L.marker(
+                [40.774527, -73.871941],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_07959467eb583691204d19ac19078beb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c967b99225591518b9f2092bbeec6cd5.setIcon(icon_07959467eb583691204d19ac19078beb);
+        
+    
+            marker_c967b99225591518b9f2092bbeec6cd5.bindTooltip(
+                `<div>
+                     LaGuardia Airport (LGA)<br>Queens, NY 11371<br>International Airport
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47a003d89c42c3caf706c5e48f634fbf = L.marker(
+                [40.749805, -73.988125],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7a70cce2729cc37d4410341d76c1c69e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_47a003d89c42c3caf706c5e48f634fbf.setIcon(icon_7a70cce2729cc37d4410341d76c1c69e);
+        
+    
+            marker_47a003d89c42c3caf706c5e48f634fbf.bindTooltip(
+                `<div>
+                     MTA - 34th Street - Herald Square Subway Station<br>W 34TH St (at W 34th St), New York, NY 10001<br>Rail Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4201fd206854329ac40facef8c32a4a = L.marker(
+                [40.749174, -73.991508],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_84e7a77661543d1a741e8e982383e5b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c4201fd206854329ac40facef8c32a4a.setIcon(icon_84e7a77661543d1a741e8e982383e5b8);
+        
+    
+            marker_c4201fd206854329ac40facef8c32a4a.bindTooltip(
+                `<div>
+                     Penn Station<br>393 7th Ave, New York, NY 10001<br>Rail Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_854b20148574dd33d9faa5f6efda1b1b = L.marker(
+                [40.749995, -73.991059],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_a184dba59cc5f91ed65f655a7fe48cd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_854b20148574dd33d9faa5f6efda1b1b.setIcon(icon_a184dba59cc5f91ed65f655a7fe48cd9);
+        
+    
+            marker_854b20148574dd33d9faa5f6efda1b1b.bindTooltip(
+                `<div>
+                     LIRR - Lost & Found<br>New York, NY 10119<br>Rail Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b95ed57178acb63c99d7f1950ca8a65e = L.marker(
+                [40.75086, -73.991006],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_1437c7da2e4ca1a9fbbfe294b3da65c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b95ed57178acb63c99d7f1950ca8a65e.setIcon(icon_1437c7da2e4ca1a9fbbfe294b3da65c9);
+        
+    
+            marker_b95ed57178acb63c99d7f1950ca8a65e.bindTooltip(
+                `<div>
+                     Calle 34–Estación Penn<br>New York, NY 10119<br>Rail Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58733343de125c750d2e8b40ac55cec2 = L.marker(
+                [40.750743, -73.991351],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_cd4d2ab60b5caa1b8e175206f43a34b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_58733343de125c750d2e8b40ac55cec2.setIcon(icon_cd4d2ab60b5caa1b8e175206f43a34b8);
+        
+    
+            marker_58733343de125c750d2e8b40ac55cec2.bindTooltip(
+                `<div>
+                     LIRR Tickets & Information<br>Penn Station, New York, NY 10001<br>Rail Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd35ddc8d2255ee892de764ef607a452 = L.marker(
+                [40.746606, -73.984724],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_644648e8ed1654ea52b60bb57845666a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_dd35ddc8d2255ee892de764ef607a452.setIcon(icon_644648e8ed1654ea52b60bb57845666a);
+        
+    
+            marker_dd35ddc8d2255ee892de764ef607a452.bindTooltip(
+                `<div>
+                     Hangawi<br>12 E 32nd St (btwn Madison & 5th Ave), New York, NY 10016<br>American Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c755fa93edee42cf11b6d57cae5d56e = L.marker(
+                [40.746241, -73.988248],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_09f447f84e6d2e24a8513eaea9d355d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_8c755fa93edee42cf11b6d57cae5d56e.setIcon(icon_09f447f84e6d2e24a8513eaea9d355d0);
+        
+    
+            marker_8c755fa93edee42cf11b6d57cae5d56e.bindTooltip(
+                `<div>
+                     PurpleThai<br>1204 Broadway, New York, NY 10001<br>Thai Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8d1ebed08841cbaa2f0db5a22656c9e = L.marker(
+                [40.752533, -73.987009],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_bfb8c22149d2182013e5b2ac15e56cd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_a8d1ebed08841cbaa2f0db5a22656c9e.setIcon(icon_bfb8c22149d2182013e5b2ac15e56cd1);
+        
+    
+            marker_a8d1ebed08841cbaa2f0db5a22656c9e.bindTooltip(
+                `<div>
+                     Sweetgreen<br>1384 Broadway (Between 37th St and 38th St), New York, NY 10018<br>Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a4f0fa0b3de9a9d5a7e5ac8635b9d32 = L.marker(
+                [40.752332, -73.988443],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_4cec7117d5f5a5792621691892466ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_9a4f0fa0b3de9a9d5a7e5ac8635b9d32.setIcon(icon_4cec7117d5f5a5792621691892466ca8);
+        
+    
+            marker_9a4f0fa0b3de9a9d5a7e5ac8635b9d32.bindTooltip(
+                `<div>
+                     Beyond Sushi Herald Square<br>134 W 37th St, New York, NY 10018<br>Asian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbe65d4a70864c6b3f387d1dd606db73 = L.marker(
+                [40.746341, -73.98253],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_377c857e6258b074e6dc4080a5b0eea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_dbe65d4a70864c6b3f387d1dd606db73.setIcon(icon_377c857e6258b074e6dc4080a5b0eea4);
+        
+    
+            marker_dbe65d4a70864c6b3f387d1dd606db73.bindTooltip(
+                `<div>
+                     Sweetgreen<br>2 Park Ave (at E 32nd St), New York, NY 10016<br>Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c04719e36482bfd7f85573a99f5e57a5 = L.marker(
+                [40.747505, -73.981396],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_3a99d68faa3ad3298ea8d7f8b2254da6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_c04719e36482bfd7f85573a99f5e57a5.setIcon(icon_3a99d68faa3ad3298ea8d7f8b2254da6);
+        
+    
+            marker_c04719e36482bfd7f85573a99f5e57a5.bindTooltip(
+                `<div>
+                     Franchia<br>12 Park Ave (at E 34th St.), New York, NY 10016<br>Asian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_218a8f22f1351a15fbb7b4257b147599 = L.marker(
+                [40.744773, -73.98867],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7e9b62a7a57244c312e6bef58672579f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_218a8f22f1351a15fbb7b4257b147599.setIcon(icon_7e9b62a7a57244c312e6bef58672579f);
+        
+    
+            marker_218a8f22f1351a15fbb7b4257b147599.bindTooltip(
+                `<div>
+                     Sweetgreen<br>1164 Broadway (at W 28th St), New York, NY 10001<br>Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e05fba78e8e0e968bbaa210437ad59e = L.marker(
+                [40.744816, -73.989065],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_6922c146b873887094aabdcda81fdb58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_9e05fba78e8e0e968bbaa210437ad59e.setIcon(icon_6922c146b873887094aabdcda81fdb58);
+        
+    
+            marker_9e05fba78e8e0e968bbaa210437ad59e.bindTooltip(
+                `<div>
+                     Scen<br>1165 Broadway (btwn 27th St & 26th St), New York, NY 10001<br>Vegan and Vegetarian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b04b2abe2b2a76a7ab579a193b6a86d8 = L.marker(
+                [40.748877, -73.9925],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_07bf616a095a97968bf6210286eacf77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_b04b2abe2b2a76a7ab579a193b6a86d8.setIcon(icon_07bf616a095a97968bf6210286eacf77);
+        
+    
+            marker_b04b2abe2b2a76a7ab579a193b6a86d8.bindTooltip(
+                `<div>
+                     Sweetgreen<br>7 Pennsylvania Plaza (W. 30th St), New York, NY 10001<br>Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_152598ba920e636e7f0b48e24b059b92 = L.marker(
+                [40.744459, -73.988309],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_b82964d953f05b9bd72bd226d80a7a63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_152598ba920e636e7f0b48e24b059b92.setIcon(icon_b82964d953f05b9bd72bd226d80a7a63);
+        
+    
+            marker_152598ba920e636e7f0b48e24b059b92.bindTooltip(
+                `<div>
+                     Planta Queen<br>15 W 27th St (btwn Broadway & 5th Ave), New York, NY 10001<br>Sushi Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_218b8e87212e40244cb261f3eafa2f90 = L.marker(
+                [40.749722, -73.985196],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_3212a1675b418415af2825039a78c2b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_218b8e87212e40244cb261f3eafa2f90.setIcon(icon_3212a1675b418415af2825039a78c2b2);
+        
+    
+            marker_218b8e87212e40244cb261f3eafa2f90.bindTooltip(
+                `<div>
+                     O'Reilly's<br>21 W 35th St (btwn 5th & 6th Ave.), New York, NY 10001<br>Pub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0eb58f08259990e17983a843e30edd = L.marker(
+                [40.749621, -73.982964],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_0b5c82bbb5ec615eeb915026c0692d29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_cf0eb58f08259990e17983a843e30edd.setIcon(icon_0b5c82bbb5ec615eeb915026c0692d29);
+        
+    
+            marker_cf0eb58f08259990e17983a843e30edd.bindTooltip(
+                `<div>
+                     5th & Mad<br>7 E 36th St (btwn Madison & 5th Ave), New York, NY 10016<br>Cocktail Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1ca990663d8b6e208cb8c881ac5df2f = L.marker(
+                [40.750081, -73.989883],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_51158079d45cb68924225b7e5ecdad31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_d1ca990663d8b6e208cb8c881ac5df2f.setIcon(icon_51158079d45cb68924225b7e5ecdad31);
+        
+    
+            marker_d1ca990663d8b6e208cb8c881ac5df2f.bindTooltip(
+                `<div>
+                     The Celtic Rail<br>137 W 33rd St (33rd St & 7th Ave), New York, NY 10001<br>Pub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49812f65bdacf5c3dd5f2aaa4aa85640 = L.marker(
+                [40.751169, -73.983593],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_0c2c0d8ec0f064e258ecd5e3767cba34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_49812f65bdacf5c3dd5f2aaa4aa85640.setIcon(icon_0c2c0d8ec0f064e258ecd5e3767cba34);
+        
+    
+            marker_49812f65bdacf5c3dd5f2aaa4aa85640.bindTooltip(
+                `<div>
+                     Blaggards<br>8 W 38th St (btwn 5th & 6th Ave.), New York, NY 10018<br>Pub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e2c0da632d233e597ef11679a1775ad = L.marker(
+                [40.745164, -73.984187],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_f183f35c3ae37fee7941e038a0c88f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_3e2c0da632d233e597ef11679a1775ad.setIcon(icon_f183f35c3ae37fee7941e038a0c88f63);
+        
+    
+            marker_3e2c0da632d233e597ef11679a1775ad.bindTooltip(
+                `<div>
+                     Crooked Knife<br>29 E 30th St (btw Park & Madison), New York, NY 10016<br>Pub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_343663c16aadd5153ad13e38a333748c = L.marker(
+                [40.748937, -73.986301],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7bc053367679d90803c7bf519f486b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_343663c16aadd5153ad13e38a333748c.setIcon(icon_7bc053367679d90803c7bf519f486b7e);
+        
+    
+            marker_343663c16aadd5153ad13e38a333748c.bindTooltip(
+                `<div>
+                     DanceSport Salsa & Bachata Parties NYC<br>22 W 34th St, New York, NY 10001<br>Night Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb1cce09a19cbdac99fd335b1c4bd874 = L.marker(
+                [40.748987, -73.98045],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7c62652d99208fc88e14c96fae886be5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_fb1cce09a19cbdac99fd335b1c4bd874.setIcon(icon_7c62652d99208fc88e14c96fae886be5);
+        
+    
+            marker_fb1cce09a19cbdac99fd335b1c4bd874.bindTooltip(
+                `<div>
+                     Union League Club<br>38 E 37th St (btw Madison Ave & Park Ave), New York, NY 10016<br>Night Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_638d9673afba0c9b0ab7556636f6f20e = L.marker(
+                [40.754943, -73.985706],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7f04a953abc1da139ddc46a2a59d8f3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_638d9673afba0c9b0ab7556636f6f20e.setIcon(icon_7f04a953abc1da139ddc46a2a59d8f3b);
+        
+    
+            marker_638d9673afba0c9b0ab7556636f6f20e.bindTooltip(
+                `<div>
+                     Nebula<br>135 W 41st St (btwn 6th Ave & Broadway), New York, NY 10036<br>Night Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6dc450ca3e3fb122dc86c8b8cda9ce2 = L.marker(
+                [40.748059, -73.994827],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_852f357f35e53835da704fa1a14af267 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_d6dc450ca3e3fb122dc86c8b8cda9ce2.setIcon(icon_852f357f35e53835da704fa1a14af267);
+        
+    
+            marker_d6dc450ca3e3fb122dc86c8b8cda9ce2.bindTooltip(
+                `<div>
+                     Mission Nightclub<br>229 W 28th St (Between 7th & 8th Ave), New York, NY 10001<br>Night Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d8f0acadeea238d93e34eb3200b8f15 = L.marker(
+                [40.744283, -73.9928],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_9a2a58cabf20af8b2bc3d02f1af4c11d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
+            );
+            marker_4d8f0acadeea238d93e34eb3200b8f15.setIcon(icon_9a2a58cabf20af8b2bc3d02f1af4c11d);
+        
+    
+            marker_4d8f0acadeea238d93e34eb3200b8f15.bindTooltip(
+                `<div>
+                     Somewhere Nowhere NYC<br>112 W 25th St, New York, NY 10001<br>Night Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_370b1e563e7e8d8845f4b628de50064a = L.marker(
+                [40.745535, -73.98442],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_5e2b8d67e132929a774e467d79096fbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_370b1e563e7e8d8845f4b628de50064a.setIcon(icon_5e2b8d67e132929a774e467d79096fbb);
+        
+    
+            marker_370b1e563e7e8d8845f4b628de50064a.bindTooltip(
+                `<div>
+                     Kimomi Pet<br>127 Madison Ave, New York, NY 10016<br>Pet Grooming Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a98e018021173df94467a6e38b50d563 = L.marker(
+                [40.746348, -73.980303],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_1ea9fc35ec87d3aaeb1355f816e00615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_a98e018021173df94467a6e38b50d563.setIcon(icon_1ea9fc35ec87d3aaeb1355f816e00615);
+        
+    
+            marker_a98e018021173df94467a6e38b50d563.bindTooltip(
+                `<div>
+                     All Paws<br>120 E 34th St, New York, NY 10016<br>Pet Grooming Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5f7546c299204a80695804d5e9e1410 = L.marker(
+                [40.744707, -73.981112],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_254049d1f4139bb00cc62981b7fa6bd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_c5f7546c299204a80695804d5e9e1410.setIcon(icon_254049d1f4139bb00cc62981b7fa6bd5);
+        
+    
+            marker_c5f7546c299204a80695804d5e9e1410.bindTooltip(
+                `<div>
+                     Prime Service NYC<br>182 Lexington Ave, New York, NY 10016<br>Pet Grooming Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_508a72403f8e596a1ddac0de8bfeaccc = L.marker(
+                [40.743422, -73.990714],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_05d29616497a9fe0dbfec57bec7658a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_508a72403f8e596a1ddac0de8bfeaccc.setIcon(icon_05d29616497a9fe0dbfec57bec7658a4);
+        
+    
+            marker_508a72403f8e596a1ddac0de8bfeaccc.bindTooltip(
+                `<div>
+                     New York Dog Spa & Hotel<br>32 W 25th St (Btw 6th Ave and Broadway), New York, NY 10010<br>Pet Grooming Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f17be2a2f160a13a96dadeb3825ffde = L.marker(
+                [40.743367, -73.990755],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_9d138008ea1de65eafd3738f2dc751a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_0f17be2a2f160a13a96dadeb3825ffde.setIcon(icon_9d138008ea1de65eafd3738f2dc751a7);
+        
+    
+            marker_0f17be2a2f160a13a96dadeb3825ffde.bindTooltip(
+                `<div>
+                     Urban Dog Spa<br>32 W 25th St, New York, NY 10010<br>Pet Grooming Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d13c0d39b0228af733e6fc08c5e9ef21 = L.marker(
+                [40.748555, -73.988469],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_2055305865c1cd36a5537613e12b126c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_d13c0d39b0228af733e6fc08c5e9ef21.setIcon(icon_2055305865c1cd36a5537613e12b126c);
+        
+    
+            marker_d13c0d39b0228af733e6fc08c5e9ef21.bindTooltip(
+                `<div>
+                     Green's Garden and Park<br>W 32ND St, New York, NY 10001<br>Dog Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5447ec00beffd621abfd191dca4ed4a3 = L.marker(
+                [40.7511, -73.986123],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_e28b67b7e73cf88341f44ee666129696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_5447ec00beffd621abfd191dca4ed4a3.setIcon(icon_e28b67b7e73cf88341f44ee666129696);
+        
+    
+            marker_5447ec00beffd621abfd191dca4ed4a3.bindTooltip(
+                `<div>
+                     Jordan's Dog Run<br>New York, NY 10018<br>Dog Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d46503e171d639b21ed16b2f429c9cc1 = L.marker(
+                [40.744861, -73.987407],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_4c88aefee2c0fb7415ec6f12225e0230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_d46503e171d639b21ed16b2f429c9cc1.setIcon(icon_4c88aefee2c0fb7415ec6f12225e0230);
+        
+    
+            marker_d46503e171d639b21ed16b2f429c9cc1.bindTooltip(
+                `<div>
+                     Maliadog VIP Indoor Dog Park<br>New York, NY 10001<br>Dog Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e020641d157aa4f23de56ddacbca417a = L.marker(
+                [40.748839, -73.991931],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_5bb4de33f00ebacdba784de8ac3f7771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_e020641d157aa4f23de56ddacbca417a.setIcon(icon_5bb4de33f00ebacdba784de8ac3f7771);
+        
+    
+            marker_e020641d157aa4f23de56ddacbca417a.bindTooltip(
+                `<div>
+                     Dog Park<br>Bryant Park, New York, NY 10001<br>Dog Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b742c64aed37217dee8328635e76072 = L.marker(
+                [40.75139, -73.981374],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_38b393c5997ee4384a16703837e778fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_7b742c64aed37217dee8328635e76072.setIcon(icon_38b393c5997ee4384a16703837e778fc);
+        
+    
+            marker_7b742c64aed37217dee8328635e76072.bindTooltip(
+                `<div>
+                     Lindsay Ashe Garden<br>E 39TH St, New York, NY 10016<br>Dog Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22df6d1eb9c270d8bb54ad045f36bf50 = L.marker(
+                [40.748417, -73.985581],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_7e4397f8c83ead99f269d13fcfee8c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_22df6d1eb9c270d8bb54ad045f36bf50.setIcon(icon_7e4397f8c83ead99f269d13fcfee8c7c);
+        
+    
+            marker_22df6d1eb9c270d8bb54ad045f36bf50.bindTooltip(
+                `<div>
+                     Starbucks<br>350 5th Ave (W. 33rd St), New York, NY 10118<br>Coffee Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d05b4549d4d12c37e805829a57898dc0 = L.marker(
+                [40.748153, -73.985353],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_96525f8217c71c01298aad90696d1480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_d05b4549d4d12c37e805829a57898dc0.setIcon(icon_96525f8217c71c01298aad90696d1480);
+        
+    
+            marker_d05b4549d4d12c37e805829a57898dc0.bindTooltip(
+                `<div>
+                     Starbucks Regional Office<br>330 5th Ave (at W 33rd St), New York, NY 10001<br>Office Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53e8d9d6174ca550e1d7eab059e9039 = L.marker(
+                [40.748383, -73.984838],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_fa49f35496ad9742403aec3d490f1d7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_f53e8d9d6174ca550e1d7eab059e9039.setIcon(icon_fa49f35496ad9742403aec3d490f1d7d);
+        
+    
+            marker_f53e8d9d6174ca550e1d7eab059e9039.bindTooltip(
+                `<div>
+                     Starbucks Reserve<br>350 5th Ave (W. 34th St), New York, NY 10118<br>Coffee Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbd72ba8feae3fa940cdd2218f0d1c68 = L.marker(
+                [40.749103, -73.983801],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_a65a7142e3aee4a1e29420bba61d604d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_fbd72ba8feae3fa940cdd2218f0d1c68.setIcon(icon_a65a7142e3aee4a1e29420bba61d604d);
+        
+    
+            marker_fbd72ba8feae3fa940cdd2218f0d1c68.bindTooltip(
+                `<div>
+                     Starbucks<br>373 5th Ave (at E 35th St), New York, NY 10016<br>Coffee Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_702cb67fe904935d1208374e8eb43e5f = L.marker(
+                [40.750749, -73.989123],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_436a5ab1e32a0024d6ab11365d847eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_702cb67fe904935d1208374e8eb43e5f.setIcon(icon_436a5ab1e32a0024d6ab11365d847eba);
+        
+    
+            marker_702cb67fe904935d1208374e8eb43e5f.bindTooltip(
+                `<div>
+                     Starbucks<br>151 W 34th St (at Mezzanine level), New York, NY 10001<br>Coffee Shop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b62d84507a140b403dc76e5c373f5b9c = L.marker(
+                [40.746752, -73.985298],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_4ab48b5b352555e5e0475ef990a47935 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "futbol", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b62d84507a140b403dc76e5c373f5b9c.setIcon(icon_4ab48b5b352555e5e0475ef990a47935);
+        
+    
+            marker_b62d84507a140b403dc76e5c373f5b9c.bindTooltip(
+                `<div>
+                     Basketball Gym At The Dylan<br>5TH Ave (32nd St.), New York, NY 10118<br>Basketball Court
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2239a53f2077b7eed2fea2c282c84d5 = L.marker(
+                [40.749368, -73.990336],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_d1625c53ab1afd443514dadd4b7627ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "futbol", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d2239a53f2077b7eed2fea2c282c84d5.setIcon(icon_d1625c53ab1afd443514dadd4b7627ad);
+        
+    
+            marker_d2239a53f2077b7eed2fea2c282c84d5.bindTooltip(
+                `<div>
+                     Jordan Terminal 23<br>145 W 32nd St (between 6th & 7th ave), New York, NY 10001<br>Basketball Court
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80aa106a170ecef3ee908f7f27feaac5 = L.marker(
+                [40.748117, -73.968711],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_8eec40d226e2e5666c3a8cdb0b20ab85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "futbol", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_80aa106a170ecef3ee908f7f27feaac5.setIcon(icon_8eec40d226e2e5666c3a8cdb0b20ab85);
+        
+    
+            marker_80aa106a170ecef3ee908f7f27feaac5.bindTooltip(
+                `<div>
+                     Robert Moses Basketball Courts<br>42ND St, New York, NY 10017<br>Basketball Court
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7bb34dcb6a9d74decf8734f37986da5 = L.marker(
+                [40.748117, -73.968711],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_2b66be6ce4607ea83086e67408d5d69d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "futbol", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_d7bb34dcb6a9d74decf8734f37986da5.setIcon(icon_2b66be6ce4607ea83086e67408d5d69d);
+        
+    
+            marker_d7bb34dcb6a9d74decf8734f37986da5.bindTooltip(
+                `<div>
+                     UN Basketball Courts<br>42nd Street and the FDR, New York, NY 10017<br>Basketball Court
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcba4d99b346bf9685c011827029d95a = L.marker(
+                [40.763603, -73.990721],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_958c2a8e052cac0177886c63d47b5e70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "futbol", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_bcba4d99b346bf9685c011827029d95a.setIcon(icon_958c2a8e052cac0177886c63d47b5e70);
+        
+    
+            marker_bcba4d99b346bf9685c011827029d95a.bindTooltip(
+                `<div>
+                     ABC Hoops<br>439 W 49th St, New York, NY 10019<br>Basketball Court
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a96d6ab93c5a6a6e7e7ed58aa55f7a4e = L.marker(
+                [40.747497, -73.985676],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_f82fa227abc770497885d50d255674a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paint-brush", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a96d6ab93c5a6a6e7e7ed58aa55f7a4e.setIcon(icon_f82fa227abc770497885d50d255674a6);
+        
+    
+            marker_a96d6ab93c5a6a6e7e7ed58aa55f7a4e.bindTooltip(
+                `<div>
+                     Interface FLOR Showroom<br>330 5th Ave (33rd Street), New York, NY 10001<br>Design Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2ef7083b690c8f532cc271f61a18126 = L.marker(
+                [40.751677, -73.984748],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_6fa4b21bd9038358e5116fe7f73b7d02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paint-brush", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f2ef7083b690c8f532cc271f61a18126.setIcon(icon_6fa4b21bd9038358e5116fe7f73b7d02);
+        
+    
+            marker_f2ef7083b690c8f532cc271f61a18126.bindTooltip(
+                `<div>
+                     Walsh Family Media<br>42 W 38th St (Between 5th and 6th Ave), New York, NY 10018<br>Design Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b41a73cb9a9479bbf4541575cbceb4fb = L.marker(
+                [40.749124, -73.991375],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_79dcd274298b7baf8ec0362464551e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paint-brush", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b41a73cb9a9479bbf4541575cbceb4fb.setIcon(icon_79dcd274298b7baf8ec0362464551e45);
+        
+    
+            marker_b41a73cb9a9479bbf4541575cbceb4fb.bindTooltip(
+                `<div>
+                     Style & Co Showroom<br>11 Penn Plz (31st Street), New York, NY 10001<br>Design Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a34230a9e1cc7796cea799dedce2eab9 = L.marker(
+                [40.745628, -73.988966],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_ee7efc7daad844a643a0d56b1429e975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paint-brush", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a34230a9e1cc7796cea799dedce2eab9.setIcon(icon_ee7efc7daad844a643a0d56b1429e975);
+        
+    
+            marker_a34230a9e1cc7796cea799dedce2eab9.bindTooltip(
+                `<div>
+                     Von Klueger Creative Studio<br>1201 Broadway (28th St), New York, NY 10001<br>Design Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_322e4606050e2beb89089635ad7c0855 = L.marker(
+                [40.747349, -73.991174],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_81907c3a6e8c18c7ee6d96b5c3fd9689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paint-brush", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_322e4606050e2beb89089635ad7c0855.setIcon(icon_81907c3a6e8c18c7ee6d96b5c3fd9689);
+        
+    
+            marker_322e4606050e2beb89089635ad7c0855.bindTooltip(
+                `<div>
+                     3 Form Show Room<br>129 W 29th St, New York, NY 10001<br>Design Studio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fe1c8b1873894f405c995eee55079e8 = L.marker(
+                [40.7464969, -74.0094471],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_12d75d1f2b378e22b2f5f8c132fe5073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50786854e4070221ca3c5a23b74386fe = $(`<div id="html_50786854e4070221ca3c5a23b74386fe" style="width: 100.0%; height: 100.0%;">Joost</div>`)[0];
+                popup_12d75d1f2b378e22b2f5f8c132fe5073.setContent(html_50786854e4070221ca3c5a23b74386fe);
+            
+        
+
+        marker_3fe1c8b1873894f405c995eee55079e8.bindPopup(popup_12d75d1f2b378e22b2f5f8c132fe5073)
+        ;
+
+        
+    
+    
+            var marker_89b444c094eec84813579b8babd478d1 = L.marker(
+                [40.72604, -73.995722],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_c68ba7c0e4eeb6fc8fe818d6b602e597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b998670858dd630e849c8e6c49c22e07 = $(`<div id="html_b998670858dd630e849c8e6c49c22e07" style="width: 100.0%; height: 100.0%;">Meetup</div>`)[0];
+                popup_c68ba7c0e4eeb6fc8fe818d6b602e597.setContent(html_b998670858dd630e849c8e6c49c22e07);
+            
+        
+
+        marker_89b444c094eec84813579b8babd478d1.bindPopup(popup_c68ba7c0e4eeb6fc8fe818d6b602e597)
+        ;
+
+        
+    
+    
+            var marker_27cd4eaa6def974a96a2170b1c2fb8f8 = L.marker(
+                [40.722655, -73.99873],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_ec69e03da9aee0dc69b129329d1ebd3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd81418ac4b1cdd1b9cbf43553b8cae5 = $(`<div id="html_fd81418ac4b1cdd1b9cbf43553b8cae5" style="width: 100.0%; height: 100.0%;">Pando Networks</div>`)[0];
+                popup_ec69e03da9aee0dc69b129329d1ebd3e.setContent(html_fd81418ac4b1cdd1b9cbf43553b8cae5);
+            
+        
+
+        marker_27cd4eaa6def974a96a2170b1c2fb8f8.bindPopup(popup_ec69e03da9aee0dc69b129329d1ebd3e)
+        ;
+
+        
+    
+    
+            var marker_a3f5c14390c534dbbd66f56b84c39168 = L.marker(
+                [37.09024, -95.712891],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_6cea2d5ea7f89031d367265ee3d17ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_472c821afb2fa86376d4d1e7c0f8c918 = $(`<div id="html_472c821afb2fa86376d4d1e7c0f8c918" style="width: 100.0%; height: 100.0%;">SpiralFrog</div>`)[0];
+                popup_6cea2d5ea7f89031d367265ee3d17ef8.setContent(html_472c821afb2fa86376d4d1e7c0f8c918);
+            
+        
+
+        marker_a3f5c14390c534dbbd66f56b84c39168.bindPopup(popup_6cea2d5ea7f89031d367265ee3d17ef8)
+        ;
+
+        
+    
+    
+            var marker_a7003dce1160d26509baf7d321726bd8 = L.marker(
+                [40.707921, -74.004792],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_506442cc08bb6f4e3ae4c6354a8e8523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba2c993069a34beb7677ea377bfe8845 = $(`<div id="html_ba2c993069a34beb7677ea377bfe8845" style="width: 100.0%; height: 100.0%;">Tutor</div>`)[0];
+                popup_506442cc08bb6f4e3ae4c6354a8e8523.setContent(html_ba2c993069a34beb7677ea377bfe8845);
+            
+        
+
+        marker_a7003dce1160d26509baf7d321726bd8.bindPopup(popup_506442cc08bb6f4e3ae4c6354a8e8523)
+        ;
+
+        
+    
+    
+            var marker_87abe5fd0039bf2d3f1b02f38b960cf0 = L.marker(
+                [40.723384, -74.001704],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_ba68a36d08ab247e355b5dba5d5bdcb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90761f6dfdee1287f82f0a351ddee643 = $(`<div id="html_90761f6dfdee1287f82f0a351ddee643" style="width: 100.0%; height: 100.0%;">OMGPOP</div>`)[0];
+                popup_ba68a36d08ab247e355b5dba5d5bdcb7.setContent(html_90761f6dfdee1287f82f0a351ddee643);
+            
+        
+
+        marker_87abe5fd0039bf2d3f1b02f38b960cf0.bindPopup(popup_ba68a36d08ab247e355b5dba5d5bdcb7)
+        ;
+
+        
+    
+    
+            var marker_af3c9cb09bec364fbe75c5231f32683a = L.marker(
+                [40.74406, -74.004592],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_99a9d62ddb364e451188a5290b235ecc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2922696f144d61ebf1920c8e1fecb99f = $(`<div id="html_2922696f144d61ebf1920c8e1fecb99f" style="width: 100.0%; height: 100.0%;">Behance</div>`)[0];
+                popup_99a9d62ddb364e451188a5290b235ecc.setContent(html_2922696f144d61ebf1920c8e1fecb99f);
+            
+        
+
+        marker_af3c9cb09bec364fbe75c5231f32683a.bindPopup(popup_99a9d62ddb364e451188a5290b235ecc)
+        ;
+
+        
+    
+    
+            var marker_18a6a750a522b9bf201a20db4ab22f0e = L.marker(
+                [38.984172, -77.095965],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_7e2b04a8907047e46546c4f3b0cdd3a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5310075c40accf2c5a055191e505d5b7 = $(`<div id="html_5310075c40accf2c5a055191e505d5b7" style="width: 100.0%; height: 100.0%;">WEbook</div>`)[0];
+                popup_7e2b04a8907047e46546c4f3b0cdd3a9.setContent(html_5310075c40accf2c5a055191e505d5b7);
+            
+        
+
+        marker_18a6a750a522b9bf201a20db4ab22f0e.bindPopup(popup_7e2b04a8907047e46546c4f3b0cdd3a9)
+        ;
+
+        
+    
+    
+            var marker_b66e8f6b23fb99e6344610195b8e0c9a = L.marker(
+                [40.752516, -73.973072],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_34ec5fa1c69454034d412f3c616f3384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02ba798ec950fbc20a70f088273c7534 = $(`<div id="html_02ba798ec950fbc20a70f088273c7534" style="width: 100.0%; height: 100.0%;">WeShow</div>`)[0];
+                popup_34ec5fa1c69454034d412f3c616f3384.setContent(html_02ba798ec950fbc20a70f088273c7534);
+            
+        
+
+        marker_b66e8f6b23fb99e6344610195b8e0c9a.bindPopup(popup_34ec5fa1c69454034d412f3c616f3384)
+        ;
+
+        
+    
+    
+            var marker_b4c57b26fe0751b18b7ece1e41d92c53 = L.marker(
+                [40.762673, -73.969296],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_69d7654bcd154f3e873062ae24c667fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66c6e79e82e6084fc0f95640efb2de3 = $(`<div id="html_d66c6e79e82e6084fc0f95640efb2de3" style="width: 100.0%; height: 100.0%;">SimulScribe</div>`)[0];
+                popup_69d7654bcd154f3e873062ae24c667fc.setContent(html_d66c6e79e82e6084fc0f95640efb2de3);
+            
+        
+
+        marker_b4c57b26fe0751b18b7ece1e41d92c53.bindPopup(popup_69d7654bcd154f3e873062ae24c667fc)
+        ;
+
+        
+    
+    
+            var marker_b6c5cdac84e073025c1f54bfd63631c0 = L.marker(
+                [37.402802, -122.117418],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_3636253073571f222afee2c3dc2bd39f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce0c7760fb34780ed213b6d560bf9176 = $(`<div id="html_ce0c7760fb34780ed213b6d560bf9176" style="width: 100.0%; height: 100.0%;">TravelMuse</div>`)[0];
+                popup_3636253073571f222afee2c3dc2bd39f.setContent(html_ce0c7760fb34780ed213b6d560bf9176);
+            
+        
+
+        marker_b6c5cdac84e073025c1f54bfd63631c0.bindPopup(popup_3636253073571f222afee2c3dc2bd39f)
+        ;
+
+        
+    
+    
+            var marker_553e598ae4bc7169ee0f9fb67ec030e3 = L.marker(
+                [40.752325, -73.988477],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_f00ff4ae351e903dffc5d1790fa77a0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0626718941c3f09e4cca672157835371 = $(`<div id="html_0626718941c3f09e4cca672157835371" style="width: 100.0%; height: 100.0%;">Oddcast</div>`)[0];
+                popup_f00ff4ae351e903dffc5d1790fa77a0b.setContent(html_0626718941c3f09e4cca672157835371);
+            
+        
+
+        marker_553e598ae4bc7169ee0f9fb67ec030e3.bindPopup(popup_f00ff4ae351e903dffc5d1790fa77a0b)
+        ;
+
+        
+    
+    
+            var marker_ca37a3259a4cac23b85f15599ed2cc34 = L.marker(
+                [40.744639, -73.983963],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_becca1388558d8410a7902ccdda7b6a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c20587c3ee02ae6bcf1c4d7357405d = $(`<div id="html_b4c20587c3ee02ae6bcf1c4d7357405d" style="width: 100.0%; height: 100.0%;">Inform Technologies</div>`)[0];
+                popup_becca1388558d8410a7902ccdda7b6a5.setContent(html_b4c20587c3ee02ae6bcf1c4d7357405d);
+            
+        
+
+        marker_ca37a3259a4cac23b85f15599ed2cc34.bindPopup(popup_becca1388558d8410a7902ccdda7b6a5)
+        ;
+
+        
+    
+    
+            var marker_94a56fc6e44a20270df17301d2f670f7 = L.marker(
+                [40.8587524, -73.7258199],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_0468d9beeeac76eefc50c91ef5d560e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d5fd20dab8034615ed9391c703da3d0 = $(`<div id="html_3d5fd20dab8034615ed9391c703da3d0" style="width: 100.0%; height: 100.0%;">OLX</div>`)[0];
+                popup_0468d9beeeac76eefc50c91ef5d560e3.setContent(html_3d5fd20dab8034615ed9391c703da3d0);
+            
+        
+
+        marker_94a56fc6e44a20270df17301d2f670f7.bindPopup(popup_0468d9beeeac76eefc50c91ef5d560e3)
+        ;
+
+        
+    
+    
+            var marker_ee39575afa999757356852e0dfbe8a24 = L.marker(
+                [40.739794, -73.985878],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_60e00aa1d83ebe5e865f2f0ffc03b49b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90df840d768b03a379238b29ea48ba22 = $(`<div id="html_90df840d768b03a379238b29ea48ba22" style="width: 100.0%; height: 100.0%;">Phreesia</div>`)[0];
+                popup_60e00aa1d83ebe5e865f2f0ffc03b49b.setContent(html_90df840d768b03a379238b29ea48ba22);
+            
+        
+
+        marker_ee39575afa999757356852e0dfbe8a24.bindPopup(popup_60e00aa1d83ebe5e865f2f0ffc03b49b)
+        ;
+
+        
+    
+    
+            var marker_5e7b5568514385a2b29380316922bf80 = L.marker(
+                [40.746883, -73.983969],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_ee7df5f70452ee33f7ca93b7e889e46a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_408d9cf9a7a5afd246ce38b5b2c12619 = $(`<div id="html_408d9cf9a7a5afd246ce38b5b2c12619" style="width: 100.0%; height: 100.0%;">Tripology</div>`)[0];
+                popup_ee7df5f70452ee33f7ca93b7e889e46a.setContent(html_408d9cf9a7a5afd246ce38b5b2c12619);
+            
+        
+
+        marker_5e7b5568514385a2b29380316922bf80.bindPopup(popup_ee7df5f70452ee33f7ca93b7e889e46a)
+        ;
+
+        
+    
+    
+            var marker_627a245c2deb4a5cbd26a8ef863b84f0 = L.marker(
+                [40.73993, -73.9930489],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_500cca9fc7d5d3e331dc2c54023f22e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8c0ee9613346e3b13a5f9b93b716b9b = $(`<div id="html_b8c0ee9613346e3b13a5f9b93b716b9b" style="width: 100.0%; height: 100.0%;">Cellufun</div>`)[0];
+                popup_500cca9fc7d5d3e331dc2c54023f22e5.setContent(html_b8c0ee9613346e3b13a5f9b93b716b9b);
+            
+        
+
+        marker_627a245c2deb4a5cbd26a8ef863b84f0.bindPopup(popup_500cca9fc7d5d3e331dc2c54023f22e5)
+        ;
+
+        
+    
+    
+            var marker_c78cba998a4a0a813dcfbb051b97f0e4 = L.marker(
+                [42.275263, -71.24762],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_4dda707059b84bc7d08b5704bf2e75bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6932dc3de21123117e21459f8e50fcca = $(`<div id="html_6932dc3de21123117e21459f8e50fcca" style="width: 100.0%; height: 100.0%;">BrandYourself</div>`)[0];
+                popup_4dda707059b84bc7d08b5704bf2e75bd.setContent(html_6932dc3de21123117e21459f8e50fcca);
+            
+        
+
+        marker_c78cba998a4a0a813dcfbb051b97f0e4.bindPopup(popup_4dda707059b84bc7d08b5704bf2e75bd)
+        ;
+
+        
+    
+    
+            var marker_7c49ad73d9b8aaa35d8c10b45a7da0a4 = L.marker(
+                [40.754211, -73.97917],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_145deb12f2b7155268cad6607a7b3cf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d7dd004ffef4560ff0d708f79fb309 = $(`<div id="html_03d7dd004ffef4560ff0d708f79fb309" style="width: 100.0%; height: 100.0%;">BountyJobs</div>`)[0];
+                popup_145deb12f2b7155268cad6607a7b3cf6.setContent(html_03d7dd004ffef4560ff0d708f79fb309);
+            
+        
+
+        marker_7c49ad73d9b8aaa35d8c10b45a7da0a4.bindPopup(popup_145deb12f2b7155268cad6607a7b3cf6)
+        ;
+
+        
+    
+    
+            var marker_df45ad9f2e0e40275c0869c996936694 = L.marker(
+                [40.754762, -73.988543],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_8ccfabf7f690573690c8a3b71f868946 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d213bf414b17d3b24cc83089dd133d5d = $(`<div id="html_d213bf414b17d3b24cc83089dd133d5d" style="width: 100.0%; height: 100.0%;">My Damn Channel</div>`)[0];
+                popup_8ccfabf7f690573690c8a3b71f868946.setContent(html_d213bf414b17d3b24cc83089dd133d5d);
+            
+        
+
+        marker_df45ad9f2e0e40275c0869c996936694.bindPopup(popup_8ccfabf7f690573690c8a3b71f868946)
+        ;
+
+        
+    
+    
+            var marker_4df93ff74a29d9608f3680ffa3ab646f = L.marker(
+                [40.741179, -73.993182],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_0f6742476fd26adb39ccd9d5df335078 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f644393d75a2b7f9fa8b1ffe94e0f84a = $(`<div id="html_f644393d75a2b7f9fa8b1ffe94e0f84a" style="width: 100.0%; height: 100.0%;">Hunch</div>`)[0];
+                popup_0f6742476fd26adb39ccd9d5df335078.setContent(html_f644393d75a2b7f9fa8b1ffe94e0f84a);
+            
+        
+
+        marker_4df93ff74a29d9608f3680ffa3ab646f.bindPopup(popup_0f6742476fd26adb39ccd9d5df335078)
+        ;
+
+        
+    
+    
+            var marker_a2fcf0bd40467c6d7fac87aa35670e2f = L.marker(
+                [40.744594, -73.989698],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_4190e4155fc3434280e42e2b72094097 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01739ff85377bf009db9cd9f44fdbd53 = $(`<div id="html_01739ff85377bf009db9cd9f44fdbd53" style="width: 100.0%; height: 100.0%;">For Your Imagination</div>`)[0];
+                popup_4190e4155fc3434280e42e2b72094097.setContent(html_01739ff85377bf009db9cd9f44fdbd53);
+            
+        
+
+        marker_a2fcf0bd40467c6d7fac87aa35670e2f.bindPopup(popup_4190e4155fc3434280e42e2b72094097)
+        ;
+
+        
+    
+    
+            var marker_05a382cc964c75200b75a1120679cfc5 = L.marker(
+                [40.744618, -73.987764],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_e2cc2638244dd325ada73a605bde3c55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ed8e117761933bd4cb9b328ec4daaf3 = $(`<div id="html_5ed8e117761933bd4cb9b328ec4daaf3" style="width: 100.0%; height: 100.0%;">Yipit</div>`)[0];
+                popup_e2cc2638244dd325ada73a605bde3c55.setContent(html_5ed8e117761933bd4cb9b328ec4daaf3);
+            
+        
+
+        marker_05a382cc964c75200b75a1120679cfc5.bindPopup(popup_e2cc2638244dd325ada73a605bde3c55)
+        ;
+
+        
+    
+    
+            var marker_a9bea0b76468dc9f0d2cc010710490e7 = L.marker(
+                [40.756054, -73.986951],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_c9eeae13352512720036f849d494bcd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_315011718c892fcf2182f897cadeb591 = $(`<div id="html_315011718c892fcf2182f897cadeb591" style="width: 100.0%; height: 100.0%;">People Capital</div>`)[0];
+                popup_c9eeae13352512720036f849d494bcd2.setContent(html_315011718c892fcf2182f897cadeb591);
+            
+        
+
+        marker_a9bea0b76468dc9f0d2cc010710490e7.bindPopup(popup_c9eeae13352512720036f849d494bcd2)
+        ;
+
+        
+    
+    
+            var marker_913d3bb2a106d0f140da6ceb46354720 = L.marker(
+                [40.726517, -74.032177],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_f96df06babe6ec2471b0eed4d0990be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4cba249a1e84b1d6ec7ced1b2ff563e = $(`<div id="html_c4cba249a1e84b1d6ec7ced1b2ff563e" style="width: 100.0%; height: 100.0%;">Mantara</div>`)[0];
+                popup_f96df06babe6ec2471b0eed4d0990be9.setContent(html_c4cba249a1e84b1d6ec7ced1b2ff563e);
+            
+        
+
+        marker_913d3bb2a106d0f140da6ceb46354720.bindPopup(popup_f96df06babe6ec2471b0eed4d0990be9)
+        ;
+
+        
+    
+    
+            var marker_cac5a9431c0a4f4acb0236d5d5a46355 = L.marker(
+                [40.752539, -73.987871],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_d1223fff7dc9b8a55986007867e40c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1042b6db7119f3f89becb5bf5d440c6 = $(`<div id="html_c1042b6db7119f3f89becb5bf5d440c6" style="width: 100.0%; height: 100.0%;">PEX Card</div>`)[0];
+                popup_d1223fff7dc9b8a55986007867e40c94.setContent(html_c1042b6db7119f3f89becb5bf5d440c6);
+            
+        
+
+        marker_cac5a9431c0a4f4acb0236d5d5a46355.bindPopup(popup_d1223fff7dc9b8a55986007867e40c94)
+        ;
+
+        
+    
+    
+            var marker_d57e1fcaf2b1a73922a1bfe539269e2f = L.marker(
+                [40.752672, -73.97593],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_b9e82744142da3a672598bab4d725b27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e23401816e23772638fe4356ae1fe7 = $(`<div id="html_70e23401816e23772638fe4356ae1fe7" style="width: 100.0%; height: 100.0%;">Major League Gaming</div>`)[0];
+                popup_b9e82744142da3a672598bab4d725b27.setContent(html_70e23401816e23772638fe4356ae1fe7);
+            
+        
+
+        marker_d57e1fcaf2b1a73922a1bfe539269e2f.bindPopup(popup_b9e82744142da3a672598bab4d725b27)
+        ;
+
+        
+    
+    
+            var marker_ff357dbfe9a3f631fce5ab5ff9e563fb = L.marker(
+                [47.6023367, -122.2850112],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_482d7e5281f207c71b5d70157e51c653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666d458ba2922750cd9d81d967b98630 = $(`<div id="html_666d458ba2922750cd9d81d967b98630" style="width: 100.0%; height: 100.0%;">CogniFit</div>`)[0];
+                popup_482d7e5281f207c71b5d70157e51c653.setContent(html_666d458ba2922750cd9d81d967b98630);
+            
+        
+
+        marker_ff357dbfe9a3f631fce5ab5ff9e563fb.bindPopup(popup_482d7e5281f207c71b5d70157e51c653)
+        ;
+
+        
+    
+    
+            var marker_f2396f2fe5ef5c81d3b4137419c715dc = L.marker(
+                [40.738567, -73.987199],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_5eda877830261ba381ed53ac6fd927d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00c22b19953908d4d1e0c688e3f64196 = $(`<div id="html_00c22b19953908d4d1e0c688e3f64196" style="width: 100.0%; height: 100.0%;">SpaBooker</div>`)[0];
+                popup_5eda877830261ba381ed53ac6fd927d8.setContent(html_00c22b19953908d4d1e0c688e3f64196);
+            
+        
+
+        marker_f2396f2fe5ef5c81d3b4137419c715dc.bindPopup(popup_5eda877830261ba381ed53ac6fd927d8)
+        ;
+
+        
+    
+    
+            var marker_4f0a31d445adec05abfa0514410579c8 = L.marker(
+                [40.7078343, -74.0136605],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_8e502948008ba5995a7d54f57b6d834f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b88872b7b1b33e828e9a4a32a6ff857 = $(`<div id="html_0b88872b7b1b33e828e9a4a32a6ff857" style="width: 100.0%; height: 100.0%;">GameChanger Media</div>`)[0];
+                popup_8e502948008ba5995a7d54f57b6d834f.setContent(html_0b88872b7b1b33e828e9a4a32a6ff857);
+            
+        
+
+        marker_4f0a31d445adec05abfa0514410579c8.bindPopup(popup_8e502948008ba5995a7d54f57b6d834f)
+        ;
+
+        
+    
+    
+            var marker_238fad99660ae50fe18f97dce5eeb18a = L.marker(
+                [40.743877, -73.98618],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_ba630bd35fff5bc075e720ef251e8092 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca411c945016f451b9d543843459a37 = $(`<div id="html_aca411c945016f451b9d543843459a37" style="width: 100.0%; height: 100.0%;">Saavn</div>`)[0];
+                popup_ba630bd35fff5bc075e720ef251e8092.setContent(html_aca411c945016f451b9d543843459a37);
+            
+        
+
+        marker_238fad99660ae50fe18f97dce5eeb18a.bindPopup(popup_ba630bd35fff5bc075e720ef251e8092)
+        ;
+
+        
+    
+    
+            var marker_715279ad947a923d3ab191d077c35214 = L.marker(
+                [40.756054, -73.986951],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_090f089bbaa212aa7b349308dbd55a07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d36e1d08f1a5b87afe2158768bd9777 = $(`<div id="html_7d36e1d08f1a5b87afe2158768bd9777" style="width: 100.0%; height: 100.0%;">GameGround</div>`)[0];
+                popup_090f089bbaa212aa7b349308dbd55a07.setContent(html_7d36e1d08f1a5b87afe2158768bd9777);
+            
+        
+
+        marker_715279ad947a923d3ab191d077c35214.bindPopup(popup_090f089bbaa212aa7b349308dbd55a07)
+        ;
+
+        
+    
+    
+            var marker_0a733801314239135c0170e2f45304ed = L.marker(
+                [40.7523796, -74.005568],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_c1e52b756730ad72ca1320cd3e753fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0853ab4e63d66dddb1a02f62cbd82eb0 = $(`<div id="html_0853ab4e63d66dddb1a02f62cbd82eb0" style="width: 100.0%; height: 100.0%;">Exent</div>`)[0];
+                popup_c1e52b756730ad72ca1320cd3e753fa5.setContent(html_0853ab4e63d66dddb1a02f62cbd82eb0);
+            
+        
+
+        marker_0a733801314239135c0170e2f45304ed.bindPopup(popup_c1e52b756730ad72ca1320cd3e753fa5)
+        ;
+
+        
+    
+    
+            var marker_16232e0749f04ae7f4ae1ccb5ab3c4a0 = L.marker(
+                [40.7408042, -74.00717],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+        var popup_9feb84b4b9f3067bb305e7bf2ad8918c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baaa09a8ad1f03760ad292f8add4ebc5 = $(`<div id="html_baaa09a8ad1f03760ad292f8add4ebc5" style="width: 100.0%; height: 100.0%;">ChallengePost</div>`)[0];
+                popup_9feb84b4b9f3067bb305e7bf2ad8918c.setContent(html_baaa09a8ad1f03760ad292f8add4ebc5);
+            
+        
+
+        marker_16232e0749f04ae7f4ae1ccb5ab3c4a0.bindPopup(popup_9feb84b4b9f3067bb305e7bf2ad8918c)
+        ;
+
+        
+    
+    
+            var circle_87f47f7269ebb3157d234d98ed55d613 = L.circle(
+                [40.748782, -73.986534],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var circle_98b317c2e83fc47401fadf56326a6522 = L.circle(
+                [40.748782, -73.986534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var circle_6a8937d4dfd094c85246be63dc27d1ec = L.circle(
+                [40.748782, -73.986534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1500, "stroke": true, "weight": 3}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var marker_39a57bca89247fd451ca47353a6a9a1c = L.marker(
+                [40.748782, -73.986534],
+                {}
+            ).addTo(map_3061885112021cc0cc5e77ffc0e72c75);
+        
+    
+            var icon_a31b59721ddab058f7a535c965c873ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_39a57bca89247fd451ca47353a6a9a1c.setIcon(icon_a31b59721ddab058f7a535c965c873ba);
+        
+</script>
+</html>
